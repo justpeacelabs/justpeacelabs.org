@@ -11,7 +11,7 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 32px;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
@@ -166,10 +166,11 @@
 }
 
 .page-heading {
-  font-size: 16px;
+  font-size: 22px;
 }
 
 .post-list {
+  width: 80%;
   margin-left: 0;
   list-style: none;
 
@@ -185,7 +186,7 @@
 
 .post-link {
   display: block;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 
@@ -233,9 +234,64 @@
       font-size: 18px;
     }
   }
+
+  p, ul {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.01rem;
+  }
 }
 
 .subheader {
   display: block;
   height: 150px;
+  background-color: rgb(19, 32, 93);
+
+  div {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    line-height: 150px;
+  }
+}
+
+.avatar_sergi {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  background: url(/assets/sergi_avatar.jpg) no-repeat;
+  background-size: 48px 48px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.avatar_jen {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  background: url(/assets/jen_avatar.jpg) no-repeat;
+  background-size: 48px 48px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.avatar_text {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 48px;
+  padding-left: 10px;
+}
+
+.floatright {
+  float: right;
+  margin: 0 0 10px 10px;
+  /*border: 1px solid #666;*/
 }

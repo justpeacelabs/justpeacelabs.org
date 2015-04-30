@@ -2,24 +2,37 @@
 layout: default
 ---
 
-<div class="subheader">
-  <div>Innovative solutions for lasting peace</div>
-</div>
 <div class="home">
 
   <h1 class="page-heading">Latest blog posts</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
+      </h2>
+      {% if post.author %}
+        <div class="avatar_{{ post.author }}"></div>
+      {% endif %}
+      <div class="avatar_text">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <br>
+        {% case post.author %}
+          {% when 'jen' %}
+            <span>Jennifer Easterday</span>
+          {% when 'hana' %}
+            <span>Hana Ivanhoe</span>
+          {% when 'sergi' %}
+            <span>Sergi Mansilla</span>
+          {% else %}
+        {% endcase %}
+      </div>
+    </li>
     {% endfor %}
   </ul>
+
 
   <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 
