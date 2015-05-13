@@ -1,25 +1,44 @@
 ---
 title: Blog
 permalink: /blog/
-layout: blog
+layout: default_post
 ---
 
-<div class="home">
+  <h1>Justpeace Blog</h1>
+  {% for post in site.posts %}
+  <div class="post">
 
-  <h1 class="page-heading">Latest blog posts</h1>
+    <header class="post-header">
+      <h1 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a></h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% if post.author %}
+      <div class="avatar_{{ post.author }}"></div>
+      <div class="avatar_text">
+        <span class="post-meta">
+          {{ post.date | date: "%b %-d, %Y" }}
+        </span>
+        <br>
+          {% case post.author %}
+            {% when 'jen' %}
+              <span>Jennifer Easterday</span>
+            {% when 'hana' %}
+              <span>Hana Ivanhoe</span>
+            {% when 'sergi' %}
+              <span>Sergi Mansilla</span>
+            {% else %}
+          {% endcase %}
+          {% else %}
+      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+          {% endif %}
+    </header>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <article class="blog-post-content">
+      {{ post.content }}
+    </article>
 
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+  </div>
+<hr/>
+  {% endfor %}
 
-</div>
+<!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+

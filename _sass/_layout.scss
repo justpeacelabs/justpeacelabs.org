@@ -162,6 +162,7 @@
  * Page content
  */
 .page-content {
+  border-top:  1px solid #666;
   padding: $spacing-unit 0;
 }
 
@@ -243,15 +244,23 @@
 }
 
 .subheader {
+  background-image: url(/assets/header_cropped.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
   display: block;
-  height: 150px;
-  background-color: rgb(19, 32, 93);
+  /*height: 320px;*/
 
   div {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     color: #fff;
-    line-height: 150px;
+    line-height: 320px;
+    text-shadow: 2px 2px #414141;
+    line-height: 550px;
+  }
+  img {
+    width: 100%;
   }
 }
 
@@ -294,4 +303,8 @@
   float: right;
   margin: 0 0 10px 10px;
   /*border: 1px solid #666;*/
+}
+
+.post-content {
+  line-height: 1.5;
 }

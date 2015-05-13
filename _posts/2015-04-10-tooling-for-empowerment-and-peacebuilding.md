@@ -1,14 +1,27 @@
 ---
 permalink: /blog/tooling-for-empowerment-and-peacebuilding
 layout: post
-title:  "Web-based Tooling for Inclusion and Empowerment in the Peacebuilding Process"
+title:  "Web-based Tooling for Inclusion and Empowerment"
+short-title: "Tooling for Empowerment"
 date:   2015-04-10 12:04:30
 author: jen
 categories: inclusion empowerment tooling justice peace peacebuilding
 ---
-**Web-based Tooling for Inclusion and Empowerment in the Peacebuilding Process**
 
-There is an increasingly well-recognized and vivid need among peacebuilders for increased access to technological tools that can advance their efforts. However, peacebuilders across sectors are confronted by resource, time, and capacity constraints that often make it difficult or impossible to efficiently use technological tools in their program design, implementation, and analysis. Additional challenges to peacebuilding more generally include creating programs that are [context-relevant, inclusive, broadly accessible, and which have widespread participation from affected communities](http://www.un.org/ga/search/view_doc.asp?symbol=A/67/499). There are also challenges specific to using technology in conflict and post-conflict contexts, such as weakened or destroyed mobile infrastructures, legal restrictions, insecure environments, and [ethical considerations](https://www.google.com/url?q=https%3A%2F%2Fwww.techchange.org%2F2014%2F09%2F23%2Fethics-ict-technology-peacebuilding%2F&sa=D&sntz=1&usg=AFQjCNGAXxp1_M2iQ58WVhEExjLJK582NQ).
+There is an increasingly well-recognized and vivid need among peacebuilders for
+increased access to technological tools that can advance their efforts.
+However, peacebuilders across sectors are confronted by resource, time, and
+capacity constraints that often make it difficult or impossible to efficiently
+use technological tools in their program design, implementation, and analysis.
+<!--more-->
+Additional challenges to peacebuilding more generally include creating programs
+that are [context-relevant, inclusive, broadly accessible, and which have
+widespread participation from affected
+communities](http://www.un.org/ga/search/view_doc.asp?symbol=A/67/499). There
+are also challenges specific to using technology in conflict and post-conflict
+contexts, such as weakened or destroyed mobile infrastructures, legal
+restrictions, insecure environments, and [ethical
+considerations](https://www.google.com/url?q=https%3A%2F%2Fwww.techchange.org%2F2014%2F09%2F23%2Fethics-ict-technology-peacebuilding%2F&sa=D&sntz=1&usg=AFQjCNGAXxp1_M2iQ58WVhEExjLJK582NQ).
 
 JustPeace Labs addresses these challenges by offering peacebuilders a robust, user-friendly online development platform for creating targeted mobile applications.
 

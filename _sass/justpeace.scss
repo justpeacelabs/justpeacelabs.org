@@ -1,0 +1,219 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+.jumbotron {
+  padding: 0;
+}
+
+.img-fullwidth {
+  width: 100%;
+}
+
+.header-img {
+  /*position: absolute;*/
+  /*background-attachment: fixed;*/
+  /*opacity: 0.5;*/
+  background-image:url(/assets/header/big.jpg);
+  position:relative;
+  width: 100%;
+  height: 300px;
+  /*padding-bottom: 25% ; [> % of width, defines aspect ratio<]*/
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.header-img-page {
+  /*position: absolute;*/
+  /*background-attachment: fixed;*/
+  /*opacity: 0.5;*/
+  background-image:url(/assets/header/big.jpg);
+  position:relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 15% ; /* % of width, defines aspect ratio*/
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+
+  a {
+    background-color: #fff
+  }
+}
+
+.logo {
+  z-index: 1000;
+  opacity: 0.9;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  background-color: white;
+  height: 100%;
+  max-width: 350px;
+  padding: 10px;
+}
+
+.logo p {
+  font-size: 14px;
+}
+
+.post-content {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.site-footer {
+  position: absolute;
+  bottom: 0;
+  border-top: 1px solid #333;
+  padding: 10px;
+  width: 100%;
+  background: white;
+  height: 50px;
+}
+
+.allofit {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -50px;
+}
+
+.avatar_sergi {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  background: url(/assets/sergi_avatar.jpg) no-repeat;
+  background-size: 48px 48px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.avatar_jen {
+  float: left;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  background: url(/assets/jen_avatar.jpg) no-repeat;
+  background-size: 48px 48px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.avatar_text {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 48px;
+  padding-left: 10px;
+}
+
+.alternative {
+  width: 100%;
+  background-color: #eee;
+}
+
+.prose-home {
+  line-height: 1.75em;
+  font-size: 17px
+}
+
+.post-title {
+  font-size: 24px;
+}
+
+.imglogo {
+  float: left;
+  margin-top: 3px;
+  max-width: 300px;
+}
+
+.navbar {
+  border: none;
+  margin: 0;
+  text-transform: uppercase;
+  li a {
+    background-color: white !important;
+  }
+}
+
+
+.motto {
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  color:  white;
+  font-size: 6vw;
+  text-shadow: 1px 1px 2px black;
+  @media screen and (min-width: 900px) {
+    font-size: 4vw;
+  }
+}
+
+.footer {
+  font-size: 15px;
+  svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+}
+
+.footer > div {
+  text-align: center;
+  padding: 15px;
+}
+
+.excerpt {
+  line-height: 1.75em;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.floatright {
+  float: right;
+  margin: 15px 0 10px 10px;
+  /*border: 1px solid #666;*/
+}
+
+.floatleft {
+  float: left;
+  margin: 15px 10px 0px 0px;
+  /*border: 1px solid #666;*/
+}
+
+.face-picture {
+  width: 200px;
+  height: 250px;
+}
+
+

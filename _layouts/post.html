@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default_post
 ---
 <div class="post">
 
@@ -7,7 +7,9 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
 
     {% if page.author %}
-    <div class="avatar_{{ page.author }}"></div>
+    <a href="/team/index.html#{{ page.author }}_bio">
+      <div class="avatar_{{ page.author }}"></div>
+    </a>
     <div class="avatar_text">
       <span class="post-meta">
         {{ page.date | date: "%b %-d, %Y" }}

@@ -16,3 +16,4 @@ twitter_username: justpeacelabs
 # Build settings
 markdown: kramdown
 exclude: ["Makefile"]
+excerpt_separator: <!--more-->

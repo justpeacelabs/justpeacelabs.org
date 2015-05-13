@@ -2,6 +2,7 @@
 permalink: /blog/jpl-at-build-peace
 layout: post
 title:  "Check us out at Build Peace 2015!"
+short-title:  "Check us out at Build Peace 2015!"
 date:   2015-04-20 13:00:30
 author: sergi
 categories: inclusion empowerment tooling justice peace peacebuilding

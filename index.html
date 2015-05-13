@@ -2,38 +2,51 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Latest blog posts</h1>
-
-  <ul class="post-list">
+<div class="container">
+  <h1>Recent blog posts</h1>
+  <div class="row">
     {% for post in site.posts %}
-    <li>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
-      </h2>
-      {% if post.author %}
-        <div class="avatar_{{ post.author }}"></div>
-      {% endif %}
-      <div class="avatar_text">
-
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <br>
-        {% case post.author %}
-          {% when 'jen' %}
-            <span>Jennifer Easterday</span>
-          {% when 'hana' %}
-            <span>Hana Ivanhoe</span>
-          {% when 'sergi' %}
-            <span>Sergi Mansilla</span>
-          {% else %}
-        {% endcase %}
-      </div>
-    </li>
+    <div class="col-md-4 excerpt">
+      <h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}/">
+          {{ post.short-title }}
+        </a>
+      </h3>
+      <p>{{ post.excerpt }}</p>
+      <p><a href="#">Read more +</a></p>
+    </div>
     {% endfor %}
-  </ul>
+  </div>
 
+</div>
+<div class="alternative">
+  <div class="container" style="padding-top: 10px;padding-bottom: 10px">
+    <h1>About Us</h1>
 
-  <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
+    <article class="post-content prose-home">
+      <p>JustPeace Labs supports the adoption of technology tools by peacebuilders
+        working in post-conflict situations.</p>
 
+      <p>Our innovative tools and software help peacebuilders undertake more
+        context-relevant peacebuilding programs that facilitate meaningful
+        participation of affected communities, local ownership and inclusion, and broad
+        access. We assist peacebuilders in empowering local communities to be active
+        participants in creating lasting just peace.</p>
+
+      <p>Challenges to using technology in peacebuilding include ethics, access and
+        capacity. We aim to overcome these challenges through our holistic, open
+        approach. In particular, we hope to contribute to the following outcomes:</p>
+
+      <ol>
+        <li>An ethical and secure approach to using technology in peacebuilding.</li>
+        <li>Improving
+          peacebuilders’ access to technological tools, focusing on easy-to-use and
+          open-source software.</li>
+        <li>Enhancing technological literacy and capacity to build
+          and use tools for just and sustainable peace.</li>
+      </ol>
+
+    </article>
+
+  </div>
 </div>
