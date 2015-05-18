@@ -4,7 +4,7 @@
 
 @media (min-width: 1200px) {
   .container {
-    width: 970px;
+    width: 60em;
   }
 }
 
@@ -19,10 +19,9 @@
   box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
 }
 
-.blog-post-content {
+.post-content {
   margin-top: 15px;
-  /*font-family: Georgia,"Times New Roman",Times,serif;*/
-  color: #555;
-  font-size: 17px;
+  color: #333;
+  font-size: 18px;
   line-height: 1.5;
 }
