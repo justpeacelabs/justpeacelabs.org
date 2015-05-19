@@ -15,7 +15,7 @@ being shared! We were also left with a number of burning questions...
 
 <!--more-->
 
-**Where are all the programmers?**
+###Where are all the programmers?
 
 Many conference participants highlighted similar challenges to using technology
 in peacebuilding. Some of these include needing to decide between targeting
@@ -45,7 +45,7 @@ them to become integral members of the peace tech community will be an
 important next step, followed by targeted technical discussions on potential
 solutions.
 
-**What are our ethical guidelines?**
+###What are our ethical guidelines?
 
 There was an overwhelming consensus about a need for the ethical application of
 technology in our peacebuilding work. Participants all seemed to agree that "do
@@ -69,7 +69,7 @@ then use that data may not be regulated or may be used in ways that are
 ethically dubious. Current laws and corporate social responsibility guidelines
 may need to be updated to take ethical and legal considerations into account.
 
-**What about security?**
+###What about security?
 
 Working in post-conflict situations always involves security risks, as does the
 widespread use of information technology. Systems can be hacked, users can be
@@ -81,7 +81,7 @@ take to ensure that our tools are used securely, and how do we deal with the
 possible exploitation of our tools by peace spoilers? We should work to develop
 a set of good practices for working securely in this field.
 
-**What do we do about changing regulatory frameworks?**
+###What do we do about changing regulatory frameworks?
 
 Finally, how do peacebuilders ensure that their work does not violate laws or
 regulatory frameworks? As technology changes and expands, so do the laws and
@@ -106,7 +106,7 @@ just signing an informed consent form, but really helping users understand the
 legal framework that governs technology use in their country and how they can
 best protect themselves.
 
-**Moving forward.**
+###Moving forward
 
 As we move forward with our projects as a community, reflection on these issues
 will be critical. They are fundamental to a sustainable peace tech industry
