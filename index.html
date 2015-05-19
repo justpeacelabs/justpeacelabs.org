@@ -12,9 +12,9 @@ layout: default
           {{ post.short-title }}
         </a>
       </h3>
-      <p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>
+      <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
       <p>{{ post.excerpt }}</p>
-      <p><a href="#">Read more +</a></p>
+      <p><a href="{{ post.url | prepend: site.baseurl }}/">Read more +</a></p>
     </div>
     {% endfor %}
   </div>
