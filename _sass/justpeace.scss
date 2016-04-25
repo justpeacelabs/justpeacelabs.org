@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700|Open+Sans:400,700);
-
 * {
   margin: 0;
 }
@@ -9,7 +7,9 @@ html {
 }
 body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 400;
+  color: #0D3862;
 }
 .jumbotron {
   padding: 0;
@@ -23,10 +23,11 @@ body {
   /*position: absolute;*/
   /*background-attachment: fixed;*/
   /*opacity: 0.5;*/
-  background-image:url(/assets/header/big.jpg);
+  /* background-image:url(/assets/header/big.jpg); */
+  background-color: #8CB7E1;
   position:relative;
   width: 100%;
-  height: 300px;
+  height: 400px;
   /*padding-bottom: 25% ; [> % of width, defines aspect ratio<]*/
 
   background-repeat: no-repeat;
@@ -52,6 +53,7 @@ body {
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
+  height: 70px;
 
   a {
     background-color: #fff
@@ -133,9 +135,30 @@ body {
   background-color: #eee;
 }
 
-.prose-home {
-  line-height: 1.75em;
-  font-size: 17px
+.front_sections article h1 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+}
+
+.front_sections article {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 18px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.excerpt {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.excerpt h3{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .post-title {
@@ -153,7 +176,10 @@ body {
   margin: 0;
   text-transform: uppercase;
   li a {
-    background-color: white !important;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
   }
 }
 
@@ -162,7 +188,7 @@ body {
   width: 100%;
   text-align: center;
   vertical-align: middle;
-  line-height: 300px;
+  line-height: 400px;
   color:  white;
   font-size: 6vw;
   text-shadow: 1px 1px 2px black;
@@ -214,3 +240,26 @@ body {
 .post-link {
   font-size: 21px;
 }
+
+article.bio-content {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+.site-header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+body .site-header {
+  background-color: transparent;
+  transition: background-color .3s;
+}
+
+body.scrolled .site-header {
+  background-color: #fff;
+  transition: background-color .4s;
+}
+
+

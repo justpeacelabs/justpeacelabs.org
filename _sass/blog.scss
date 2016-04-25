@@ -1,3 +1,12 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: #0D3862;
+  font-family: 'Merriweather Sans', sans-serif;
+}
 /*
  * Override Bootstrap's default container.
  */
@@ -21,11 +30,17 @@
 
 .post-title {
   font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 10px;
 }
 .post-content {
   margin-top: 25px;
-  color: #333;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
   font-size: 18px;
-  line-height: 1.4;
-  font-family: 'PT Serif', Georgia, serif;
+}
+
+.post-content h3 {
+  font-weight: 400;
 }

@@ -3,7 +3,7 @@ permalink: /blog/tooling-for-empowerment-and-peacebuilding
 layout: post
 title:  "Web-based Tooling for Inclusion and Empowerment"
 short-title: "Tooling for Empowerment"
-date:   2015-04-10 12:04:30
+date: 2015-04-10 12:04:30
 author: jen
 categories: inclusion empowerment tooling justice peace peacebuilding
 ---
@@ -25,7 +25,7 @@ considerations](https://www.google.com/url?q=https%3A%2F%2Fwww.techchange.org%2F
 
 JustPeace Labs addresses these challenges by offering peacebuilders a robust, user-friendly online development platform for creating targeted mobile applications.
 
-###Context
+### Context
 
 Recognizing the need for context-specific technology use, we will make it
 easier for peacebuilders to unleash the power of technology in ways that are
@@ -35,7 +35,7 @@ difficult challenges specific to using technology in post-conflict settings,
 such as the ethics and security of using mobile apps in peacebuilding work, and
 the inequalities in access to technological tools amongst local communities.
 
-###Access
+### Access
 
 By creating a robust and easy-to-use tool for mobile application development,
 more organizations and peacebuilders will have access to the benefits of
@@ -47,7 +47,7 @@ and rural communities. Grassroots organizations will not need special software,
 equipment, or technical capacity to use our platform. Anyone, anywhere, can use
 it.
 
-###Inclusion & Participation
+### Inclusion & Participation
 
 It will also allow peacebuilders to reach larger groups of people, collect
 better information, engage in more in-depth analysis, and do so quickly, in
@@ -57,7 +57,7 @@ more people will be included in the peace process. This will generate a new
 social infrastructure where communities feel more connected to peacebuilding
 programs, and more invested in seeing their success.
 
-###Empowerment
+### Empowerment
 
 Our app development platform is designed to empower local civil society
 organizations, which may lack the capacity to design similar tools in-house, to
@@ -69,7 +69,7 @@ fragile post-conflict environments and making information sharing horizontal
 (between beneficiaries) rather than hierarchical (from beneficiaries to
 donors/implementers).
 
-###How it works
+### How it works
 
 The development platform will allow peacebuilders to quickly design, create,
 and implement mobile applications to support their work. For example, an
