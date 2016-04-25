@@ -9,7 +9,7 @@ var pattern = Trianglify({
 });
 
 var imageUrl = 'url(' + pattern.png() + ')';
-$('.header-img').css('background-image', imageUrl);
+document.querySelector('.header-img').style.backgroundImage = imageUrl;
 
 window.addEventListener('scroll', function() {
   document.body.classList[
