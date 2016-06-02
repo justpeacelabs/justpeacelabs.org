@@ -4,7 +4,6 @@ var pattern = Trianglify({
   width: sh.offsetWidth,
   height: sh.offsetHeight,
   seed: 'JustPeaceLabs',
-  // x_colors: 'GnBu'
   x_colors: ['#FFFFFF', '#FFFFFF', '#27527C', '#FFC28A']
 });
 
@@ -16,5 +15,4 @@ window.addEventListener('scroll', function() {
       window.scrollY > 50 ? 'add' : 'remove'
     ]('scrolled');
 });
-
 

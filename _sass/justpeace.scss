@@ -135,6 +135,10 @@ body {
   background-color: #eee;
 }
 
+.front_sections {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .front_sections article h1 {
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 700;
@@ -148,6 +152,25 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+.statements h1 {
+  text-align: center;
+  color: #F9A870;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.statement {
+  font-weight: 300;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.statement p {
+vertical-align: middle;
+}
+
 
 .excerpt {
   font-family: 'Merriweather Sans', sans-serif;
