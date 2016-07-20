@@ -9,8 +9,27 @@ body {
   height: 100%;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 400;
-  color: #0D3862;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $text-color;
+  padding-top: 80px;
 }
+
+h2 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: $brand-color-warm;
+}
+
 .jumbotron {
   padding: 0;
 }
@@ -50,33 +69,114 @@ body {
   background-size: cover;
 }
 
+/*
+–––––––––––––––––––––––––––––––––––
+ Navigation Bootstrap mess
+*/
+
+.site-header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+}
+
+body .site-header {
+  background-color: transparent;
+  transition: background-color .3s;
+}
+
+body.scrolled .site-header {
+  background-color: #FFF;
+  transition: background-color .4s;
+  height: 45px;
+  position: fixed;
+}
+
+.navbar {
+  border: none;
+  margin: 0;
+
+}
+
 .navbar-default {
   background-color: transparent;
   border-color: transparent;
   height: 70px;
 
-  a {
-    background-color: #fff
+  .nav {
+    margin-left: 30px;
+  }
+
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+  color: $brand-color-dark;
+  font-weight: 900;
+  background-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 30px;
+  line-height: 80px!important;
+}
+
+.scrolled {
+  
+  .navbar-default .navbar-nav>.active>a, 
+  .navbar-default .navbar-nav>.active>a:focus, 
+  .navbar-default .navbar-nav>.active>a:hover {
+    font-size: 12px;
+    line-height: 45px!important;
+    padding: 0 25px;
   }
 }
 
-.logo {
-  z-index: 1000;
-  opacity: 0.9;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 100px;
-  background-color: white;
-  height: 100%;
-  max-width: 350px;
-  padding: 10px;
+
+.logo-container {
+  float: left;
+  display:table;
+  height:80px;
+  width: 180px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+
+  .imglogo {
+    width: 180px;
+    height: 80px;
+    position: absolute;
+  }
+
+} 
+
+.scrolled .logo-container {
+  width: 30px;
+  height: 45px;
+
+  .imglogo {
+    width: auto;
+    height: 30px;
+    margin-top: 7px;
+  }
 }
 
-.logo p {
-  font-size: 14px;
+@media screen and (max-width:768px){
+  .scrolled .logo-container {
+    width: 45px;
+    height: 45px;
+    padding-left: 15px;
+    position: absolute;
+    left: 50%;
+    margin-left: -23px;
+  }
+
 }
 
+/* 
+–––––––––––––––––––––––––––––
+    Footer 
+*/
 
 .site-footer {
   position: absolute;
@@ -135,76 +235,13 @@ body {
   background-color: #eee;
 }
 
-.front_sections {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.front_sections article h1 {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 700;
-}
-
-.front_sections article {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 300;
-  line-height: 1.7;
-  font-size: 18px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.statements h1 {
-  text-align: center;
-  color: #F9A870;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  font-weight: 400;
-  font-size: 3rem;
-}
-
-.statement {
-  font-weight: 300;
-  font-size: 2.2rem;
-  text-align: center;
-}
-.statement p {
-vertical-align: middle;
-}
-
-
-.excerpt {
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 300;
-  line-height: 1.7;
-}
-
-.excerpt h3{
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 400;
-  line-height: 1;
-}
-
-.post-title {
-  font-size: 24px;
-}
-
 .imglogo {
   float: left;
   margin-top: 3px;
   max-width: 300px;
 }
 
-.navbar {
-  border: none;
-  margin: 0;
-  text-transform: uppercase;
-  li a {
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 18px;
-    color: white;
-  }
-}
+
 
 
 .motto {
@@ -235,10 +272,6 @@ vertical-align: middle;
   padding: 15px;
 }
 
-.excerpt {
-  line-height: 1.75em;
-}
-
 .jumbotron {
   margin-bottom: 0;
 }
@@ -260,29 +293,11 @@ vertical-align: middle;
   height: 250px;
 }
 
-.post-link {
-  font-size: 21px;
-}
-
 article.bio-content {
   font-weight: 300;
   line-height: 1.7;
 }
 
-.site-header {
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-}
 
-body .site-header {
-  background-color: transparent;
-  transition: background-color .3s;
-}
-
-body.scrolled .site-header {
-  background-color: #fff;
-  transition: background-color .4s;
-}
 
 

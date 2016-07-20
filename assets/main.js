@@ -1,4 +1,4 @@
-var sh = document.getElementById('subheader');
+/*var sh = document.getElementById('subheader');
 
 var pattern = Trianglify({
   width: sh.offsetWidth,
@@ -9,10 +9,11 @@ var pattern = Trianglify({
 
 var imageUrl = 'url(' + pattern.png() + ')';
 document.querySelector('.header-img').style.backgroundImage = imageUrl;
+*/
 
 window.addEventListener('scroll', function() {
   document.body.classList[
-      window.scrollY > 50 ? 'add' : 'remove'
+      window.scrollY > 80 ? 'add' : 'remove'
     ]('scrolled');
 });
 
