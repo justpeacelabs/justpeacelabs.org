@@ -2,17 +2,19 @@
 /*
  * Override Bootstrap's default container.
  */
-
-@media (min-width: 1200px) {
-  .page-content .container {
-    width: 50em;
+@media (min-width: 768px) {
+  .post,
+  .blog-headline {
+    margin-left: 210px;
+    max-width: 40em;
   }
+
 }
 
+@media (min-width: 1200px) {
+  
+}
 
-/*
- * Masthead for nav
- */
 
 .blog-masthead {
   background-color: #428bca;
@@ -21,18 +23,61 @@
 }
 
 .post-title {
-  font-size: 28px;
-  font-weight: 700;
-  padding-bottom: 10px;
-}
-.post-content {
-  margin-top: 25px;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 300;
-  line-height: 1.7;
-  font-size: 18px;
+
+  a {
+    color: $brand-color-dark;
+  }
 }
 
-.post-content h3 {
-  font-weight: 400;
+.post-author {
+  margin: 0;
+  padding: 0 0 1em calc(0.75em + 48px + 0.75em);
+  min-height: 58px;
+  box-sizing: content-box;
+  position: relative;
+  display: table;
+  border-radius: 3px;
+}
+
+.post-link {
+  font-weight: bold;
+}
+
+.post-meta {
+ // font-size: .75em;
+  font-weight: 900;
+  //color: $brand-color-warm;
+}
+
+.post-author-link {
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.avatar_sergi { 
+  background: url(/assets/sergi.jpg) no-repeat;
+}
+
+.avatar_jen {
+  background: url(/assets/jen_avatar.jpg) no-repeat;
+}
+
+.post-author-avatar {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  background-size: 100%;
+  border: 4px solid $brand-color-warm;
+  transform: rotateX(10deg) rotatey(-10deg);
+  transition: transform 2s ease-out;
+}
+
+.avatar_text {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1.4;
+  font-size: .8em;
 }

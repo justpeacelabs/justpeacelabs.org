@@ -9,11 +9,11 @@ categories: inclusion empowerment tooling justice peace peacebuilding
 ---
 
 There is an increasingly well-recognized and vivid need among peacebuilders for
-increased access to technological tools that can advance their efforts.
+increased access to technological tools that can advance their efforts.<!--more-->
 However, peacebuilders across sectors are confronted by resource, time, and
 capacity constraints that often make it difficult or impossible to efficiently
 use technological tools in their program design, implementation, and analysis.
-<!--more-->
+
 Additional challenges to peacebuilding more generally include creating programs
 that are [context-relevant, inclusive, broadly accessible, and which have
 widespread participation from affected

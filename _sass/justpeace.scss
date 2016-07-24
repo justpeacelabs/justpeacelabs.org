@@ -7,27 +7,87 @@ html {
 }
 body {
   height: 100%;
+  padding-top: 70px;
   font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: $text-color;
-  padding-top: 80px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.7;
+  color: $brand-color-dark;
+  -webkit-font-smoothing: antialiased;
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
+
+
+
+h1 {
+  font-size: 1.86em;
+  line-height: 1.4;
+  font-weight: 300;
 }
 
 h2 {
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 1.6em;
+  font-weight: 300;
+  line-height: 1.4;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 1em;
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: 1em;
 }
 
 a {
-  color: $brand-color-warm;
+  color: darken($brand-color-warm, 20%);
+  text-decoration: none;
+}
+
+p a {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+hr {
+  border-top-color: lighten($brand-color-warm, 20%);
+}
+
+.excerpt,
+.prose-home {
+  padding-bottom: 15px;
+}
+
+.pagelink-readmore {
+  clear: both;
+  display: inline-block;
+  text-decoration: none;
+  border: 3px solid darken($brand-color-warm, 10%);
+  font-weight: 800;
+  padding: 10px 15px;
+
+  &:hover,
+  &:active {
+    background-color: darken($brand-color-warm, 10%);
+    color: #FFF;
+    text-decoration: none;
+    transition: all .2s linear;
+  }
 }
 
 .jumbotron {
@@ -39,19 +99,14 @@ a {
 }
 
 .header-img {
-  /*position: absolute;*/
-  /*background-attachment: fixed;*/
-  /*opacity: 0.5;*/
-  /* background-image:url(/assets/header/big.jpg); */
-  background-color: #8CB7E1;
+  background-color: $brand-color-dark;
   position:relative;
   width: 100%;
   height: 400px;
-  /*padding-bottom: 25% ; [> % of width, defines aspect ratio<]*/
-
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: table;
 }
 
 .header-img-page {
@@ -69,9 +124,25 @@ a {
   background-size: cover;
 }
 
+.motto {
+  width: 100%;
+  text-align: center;
+  line-height: 1.4;
+  color:  white;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 0 20px;
+  display: table-cell;
+  vertical-align: middle;
+
+  @media screen and (min-width: 900px) {
+    font-size: 40px;
+  }
+}
+
 /*
 –––––––––––––––––––––––––––––––––––
- Navigation Bootstrap mess
+ Navigation Bootstrap overrides
 */
 
 .site-header {
@@ -82,15 +153,26 @@ a {
 }
 
 body .site-header {
-  background-color: transparent;
-  transition: background-color .3s;
+  background-color: #FFF;
+}
+
+@keyframes navi_minimize {
+  from {
+    transform: translate(0,-45px);
+  }
+  to {
+    transform: translate(0,0);
+  }
 }
 
 body.scrolled .site-header {
-  background-color: #FFF;
-  transition: background-color .4s;
   height: 45px;
   position: fixed;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  animation-name: navi_minimize;
+  animation-duration: .2s;
+  animation-timing-function: ease-out;
+
 }
 
 .navbar {
@@ -103,22 +185,17 @@ body.scrolled .site-header {
   background-color: transparent;
   border-color: transparent;
   height: 70px;
-
-  .nav {
-    margin-left: 30px;
-  }
-
 }
 
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
-  color: $brand-color-dark;
-  font-weight: 900;
+  color: darken($brand-color-warm, 10%);
+  font-weight: 400;
   background-color: transparent;
   -webkit-font-smoothing: antialiased;
   padding: 0 30px;
-  line-height: 80px!important;
+  line-height: 70px!important;
 }
 
 .scrolled {
@@ -126,7 +203,7 @@ body.scrolled .site-header {
   .navbar-default .navbar-nav>.active>a, 
   .navbar-default .navbar-nav>.active>a:focus, 
   .navbar-default .navbar-nav>.active>a:hover {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 45px!important;
     padding: 0 25px;
   }
@@ -136,15 +213,15 @@ body.scrolled .site-header {
 .logo-container {
   float: left;
   display:table;
-  height:80px;
+  height: 70px;
   width: 180px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
 
   .imglogo {
-    width: 180px;
-    height: 80px;
+    width: 145px;
+    height: 70px;
     position: absolute;
   }
 
@@ -159,10 +236,8 @@ body.scrolled .site-header {
     height: 30px;
     margin-top: 7px;
   }
-}
 
-@media screen and (max-width:768px){
-  .scrolled .logo-container {
+  @media screen and (max-width:768px){
     width: 45px;
     height: 45px;
     padding-left: 15px;
@@ -172,6 +247,44 @@ body.scrolled .site-header {
   }
 
 }
+
+
+
+.navbar-default .navbar-collapse {
+  background-color: #FFF;
+  border-top: 1px solid #EFEFEF;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+
+  @media screen and (min-width: 768px) {
+    box-shadow: none;
+    border: none;
+  }
+}
+
+// mobile toggler
+
+.navbar-default .navbar-toggle {
+  border: none;
+  padding: 6px 10px;
+  margin-right: 10px;
+  margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: $brand-color-warm;
+  width: 22px;
+  height: 3px;
+}
+
+.scrolled .navbar-default .navbar-toggle {
+  margin-top: 8px;
+}
+
+.navbar-default .navbar-toggle:focus, 
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
 
 /* 
 –––––––––––––––––––––––––––––
@@ -195,40 +308,8 @@ body.scrolled .site-header {
   margin: 0 auto -50px;
 }
 
-.avatar_sergi {
-  float: left;
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-  -webkit-border-radius: 24px;
-  -moz-border-radius: 24px;
-  background: url(/assets/sergi_avatar.jpg) no-repeat;
-  background-size: 48px 48px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
 
-.avatar_jen {
-  float: left;
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-  -webkit-border-radius: 24px;
-  -moz-border-radius: 24px;
-  background: url(/assets/jen_avatar.jpg) no-repeat;
-  background-size: 48px 48px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
 
-.avatar_text {
-  display: table-cell;
-  vertical-align: bottom;
-  height: 48px;
-  padding-left: 10px;
-}
 
 .alternative {
   width: 100%;
@@ -244,18 +325,7 @@ body.scrolled .site-header {
 
 
 
-.motto {
-  width: 100%;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 400px;
-  color:  white;
-  font-size: 6vw;
-  text-shadow: 1px 1px 2px black;
-  @media screen and (min-width: 900px) {
-    font-size: 4vw;
-  }
-}
+
 
 .footer {
   font-size: 15px;
@@ -276,28 +346,23 @@ body.scrolled .site-header {
   margin-bottom: 0;
 }
 
-.floatright {
-  float: right;
-  margin: 15px 0 10px 10px;
-  /*border: 1px solid #666;*/
-}
-
-.floatleft {
-  float: left;
-  margin: 15px 10px 0px 0px;
-  /*border: 1px solid #666;*/
-}
-
 .face-picture {
-  width: 200px;
-  height: 250px;
+  width: 160px;
+  height: auto;
+  margin: 15px 5px 10px 20px;
+  transform: rotateX(4deg) rotateY(1deg) rotateZ(4deg);
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
+  border: 6px solid #FFF;
 }
 
-article.bio-content {
-  font-weight: 300;
-  line-height: 1.7;
+.face-picture.floatright {
+  float: right;
 }
 
-
+.face-picture.floatleft {
+  float: left;
+  margin: 15px 20px 10px 5px;
+  transform: rotateX(-4deg) rotateY(-1deg) rotateZ(-4deg);
+}
 
 

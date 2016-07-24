@@ -9,11 +9,9 @@ categories: tech technology data tooling justice peace peacebuilding
 ---
 
 We’ve finally had a moment to collect our thoughts after a stimulating weekend
-in Cyprus at the Build Peace 2015 conference. We were blown away by the
+in Cyprus at the Build Peace 2015 conference. <!--more-->We were blown away by the
 enthusiasm of conference participants and the wealth of expertise and ideas
 being shared! We were also left with a number of burning questions...
-
-<!--more-->
 
 ### Where are all the programmers?
 
