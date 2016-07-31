@@ -99,14 +99,14 @@ hr {
 }
 
 .header-img {
+  background-image: url(https://i.guim.co.uk/img/media/6b05419b56fad5a044f3fb6187526b20b524932b/0_586_5033_3020/master/5033.jpg?w=1225&q=55&auto=format&usm=12&fit=max&s=dfb291eed5a8bc65d48b01dfbad5c789);
   background-color: $brand-color-dark;
   position:relative;
   width: 100%;
-  height: 400px;
+  min-height: 400px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  display: table;
 }
 
 .header-img-page {
@@ -118,7 +118,6 @@ hr {
   width: 100%;
   height: 0;
   padding-bottom: 15% ; /* % of width, defines aspect ratio*/
-
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -126,18 +125,36 @@ hr {
 
 .motto {
   width: 100%;
-  text-align: center;
-  line-height: 1.4;
-  color:  white;
-  font-size: 30px;
-  font-weight: 300;
-  padding: 0 20px;
-  display: table-cell;
-  vertical-align: middle;
 
   @media screen and (min-width: 900px) {
     font-size: 40px;
   }
+}
+.motto-question {
+  color: $brand-color-warm;
+  font-weight: 900;
+  font-size: 24px;
+  text-transform: uppercase;
+
+}
+
+h1.motto-text {
+  font-size: 24px;
+  color: #FFF;
+  border: 5px solid #FFF;
+  padding: 10px;
+  line-height: 1.4;
+  font-weight: 900;
+  text-align: left;
+  max-width: 65rem;
+  text-transform: uppercase;
+  margin: 0 auto;
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: rgba(0,0,0,0.2);
 }
 
 /*
