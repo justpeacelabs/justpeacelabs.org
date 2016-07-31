@@ -364,12 +364,16 @@ body.scrolled .site-header {
 }
 
 .face-picture {
-  width: 160px;
+  width: 120px;
   height: auto;
   margin: 15px 5px 10px 20px;
   transform: rotateX(4deg) rotateY(1deg) rotateZ(4deg);
   box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
   border: 6px solid #FFF;
+
+  @media screen and (min-width: 1024px) {
+    width: 160px;
+  }
 }
 
 .face-picture.floatright {
