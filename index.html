@@ -3,91 +3,61 @@ layout: default
 ---
 
 <div class="container">
-  <!-- <div class="statements">
-    <h2>What we support</h2>
+    <h2>Recent blog posts</h2>
     <div class="row">
-      <div class="col-md-4 statement">
-        <p>An ethical and secure approach to using technology in peacebuilding.</p>
-      </div>
-      <div class="col-md-4 statement">
-        <p>Improving
-          peacebuilders’ access to technological tools, focusing on easy-to-use and
-          open-source software.</p>
-      </div>
-      <div class="col-md-4 statement">
-        <p>Enhancing technological literacy and capacity to build
-          and use tools for just and sustainable peace.</p>
-      </div>
+        {% for post in site.posts %}
+        <div class="col-md-4 excerpt">
+            <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}/">
+                  {{ post.short-title }}
+                </a>
+            </h3>
+            <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
+            <p>{{ post.excerpt }}</p>
+            <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}/">Read more +</a></p>
+        </div>
+        {% endfor %}
     </div>
-  </div> -->
-  <h2>Recent blog posts</h2>
-  <div class="row">
-    {% for post in site.posts %}
-    <div class="col-md-4 excerpt">
-      <h3>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}/">
-          {{ post.short-title }}
-        </a>
-      </h3>
-      <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
-      <p>{{ post.excerpt }}</p>
-      <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}/">Read more +</a></p>
-    </div>
-    {% endfor %}
-  </div>
-  <hr />
+    <hr />
 </div>
 
 <div class="container front_sections">
-  <div class="row">
-    <article class="prose-home col-md-6">
-      <h2>About</h2>
-      <p>JustPeace Labs supports the adoption of technology tools by peacebuilders
-        working in post-conflict situations.</p>
+    <div class="row">
+       
+        <article class="prose-home col-md-6">
+            <h2>About</h2>
+            <p>JustPeace Labs works with peacebuilders using technology for peace to:</p>
 
-      <p>Our innovative tools and software help peacebuilders undertake more
-        context-relevant peacebuilding programs that facilitate meaningful
-        participation of affected communities, local ownership and inclusion, and broad
-        access. We assist peacebuilders in empowering local communities to be active
-        participants in creating lasting just peace.</p>
+            <ul>
+                <li>Improve access to easy-to-use software.</li>
+                <li>Enhance capacity to build customized apps.</li>
+                <li>Ensure an ethical and secure approach.</li>
+            </ul>
+        </article>
 
-      <p>Challenges to using technology in peacebuilding include ethics, access and
-        capacity. We aim to overcome these challenges through our holistic, open
-        approach. In particular, we hope to contribute to the following outcomes:</p>
+        <article class="prose-home col-md-6">
+            <h2>We Offer:</h2>    
+            <p><strong>Technical assistance.</strong> We help peacebuilders easily create customized and targeted mobile apps.</p>
+            <p><strong>Ethics and Security.</strong> We help ensure ethical and secure approaches to tech in post-conflict situations.</p>
+            <p><strong>Capacity-building.</strong> We work with peacebuilders on incorporating technology into their work, from design to deployment.</p>
+            <p><strong>Research.</strong> We offer research and advice to peacebuilders, policymakers and and public and private organizations.</p>
+        </article>
 
-      <ol>
-        <li>An ethical and secure approach to using technology in peacebuilding.</li>
-        <li>Improving
-          peacebuilders’ access to technological tools, focusing on easy-to-use and
-          open-source software.</li>
-        <li>Enhancing technological literacy and capacity to build
-          and use tools for just and sustainable peace.</li>
-      </ol>
-
-    </article>
-
-    <article class="prose-home col-md-6">
-      <h2>What We Do</h2>
-      <p>
-
-        <b>Tooling</b>. We utilize the latest advances in computer science to develop robust, user-friendly and open-source software for peacebuilders.
-      </p>
-      <p>
-        JustPeace Labs addresses common peacebuilding challenges, including time, capacity, and resource constraints, by offering peacebuilders an online development platform for creating targeted mobile applications.
-      </p>
-      <p>
-        <b>Capacity-building</b>. We facilitate broad use and adoption of technological tools by providing capacity building to local peacebuilding stakeholders. Specifically, JustPeace trains local peacebuilders on incorporating technology into peacebuilding
-        work, designing and deploying mobile phone applications and other software solutions and relevant legal, security, privacy and ethical considerations.
-      </p>
-      <p>
-        <b>Research</b>. We offer research and advice on technology, peacebuilding, international justice, transparency, economic development, ethical investment in post-conflict countries and related laws and policies.
-      </p>
-      <p>
-        <b>Technical assistance</b>. We provide advice and assistance on developing and applying technology in peacebuilding contexts. We work together with peacebuilding organizations to customize tools, analyze data and develop tech-related strategies.
-      </p>
-    </article>
-
-  </div>
-
+    </div>
 </div>
+
+<div class="container front_sections">
+    <hr />
+    <h2>Mission &amp; Vision</h2>
+    <div class="row">
+
+        <div class="col-md-6">
+            <p>JustPeace Labs aims to empower local communities to be active participants in creating lasting just peace through the use of technology.</p>
+        </div>
+
+        <div class="col-md-6">
+            <p>We help peacebuilders ensure that their work is context-relevant,  supports local ownership, reduces corruption and facilitates transparency.</p>
+        </div>
+
+    </div>
 </div>

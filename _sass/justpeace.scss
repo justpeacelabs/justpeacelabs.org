@@ -9,7 +9,7 @@ body {
   height: 100%;
   padding-top: 70px;
   font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: $brand-color-dark;
@@ -40,8 +40,8 @@ h2 {
   font-size: 1.6em;
   font-weight: 300;
   line-height: 1.4;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
 }
 
 h3 {
@@ -99,11 +99,12 @@ hr {
 }
 
 .header-img {
-  background-image: url(https://i.guim.co.uk/img/media/6b05419b56fad5a044f3fb6187526b20b524932b/0_586_5033_3020/master/5033.jpg?w=1225&q=55&auto=format&usm=12&fit=max&s=dfb291eed5a8bc65d48b01dfbad5c789);
+  background-image: url(/assets/header/13124660375_296f04535f_k.jpg);
   background-color: $brand-color-dark;
   position:relative;
   width: 100%;
-  min-height: 400px;
+  min-height: 360px;
+  height: 66vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -135,7 +136,6 @@ hr {
   font-weight: 900;
   font-size: 24px;
   text-transform: uppercase;
-
 }
 
 h1.motto-text {
@@ -155,6 +155,15 @@ h1.motto-text {
   top: 50%;
   transform: translate(0, -50%);
   background-color: rgba(0,0,0,0.2);
+}
+
+.img-attribution {
+  font-size: .66em;
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 10px;
 }
 
 /*
@@ -195,7 +204,12 @@ body.scrolled .site-header {
 .navbar {
   border: none;
   margin: 0;
+}
 
+.navbar-nav {
+  @media screen and (max-width: 768px) {
+    margin: 0 -15px;
+  }
 }
 
 .navbar-default {
@@ -213,6 +227,10 @@ body.scrolled .site-header {
   -webkit-font-smoothing: antialiased;
   padding: 0 30px;
   line-height: 70px!important;
+
+  @media screen and (max-width: 768px) {
+    border-bottom: 1px solid #efefef; 
+  }
 }
 
 .scrolled {
@@ -345,7 +363,9 @@ body.scrolled .site-header {
 
 
 .footer {
-  font-size: 15px;
+
+  padding-bottom: 3em;
+
   svg {
     display: inline-block;
     width: 16px;
@@ -354,10 +374,14 @@ body.scrolled .site-header {
   }
 }
 
-.footer > div {
-  text-align: center;
-  padding: 15px;
+.twitter-logo path {
+  fill: #f78a3f;
+
+  a:hover &{
+    fill: #FFF;
+  }
 }
+
 
 .jumbotron {
   margin-bottom: 0;
