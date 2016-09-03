@@ -8,13 +8,13 @@ layout: default
         {% for post in site.posts %}
         <div class="col-md-4 excerpt">
             <h3>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}/">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                   {{ post.short-title }}
                 </a>
             </h3>
             <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
             <p>{{ post.excerpt }}</p>
-            <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}/">Read more +</a></p>
+            <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more +</a></p>
         </div>
         {% endfor %}
     </div>

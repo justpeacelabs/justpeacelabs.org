@@ -88,6 +88,12 @@ hr {
     text-decoration: none;
     transition: all .2s linear;
   }
+
+  @media screen and (max-width: 640px){
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+  }
 }
 
 .jumbotron {
@@ -247,7 +253,7 @@ body.scrolled .site-header {
 
 .logo-container {
   float: left;
-  display:table;
+  //display:table;
   height: 70px;
   width: 180px;
   overflow: hidden;
