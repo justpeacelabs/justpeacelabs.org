@@ -1,5 +1,5 @@
 ---
-permalink: /blog/where-to-from-here
+permalink: /blog/2015-05-18-where-to-from-here
 layout: post
 title:  "Build Peace 2015: Where to from here?"
 short-title: "Build Peace 2015: Where to from here?"
