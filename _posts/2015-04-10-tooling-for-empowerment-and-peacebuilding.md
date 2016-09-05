@@ -1,5 +1,4 @@
 ---
-permalink: /blog/2015-04-10-tooling-for-empowerment-and-peacebuilding
 layout: post
 title:  "Web-based Tooling for Inclusion and Empowerment"
 short-title: "Tooling for Empowerment"
