@@ -4,37 +4,37 @@ layout: default_post
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-
-    
-
-
 
     {% if page.author %}
-    <div class="post-author">
-      <a class="post-author-link" href="/team/index.html#{{ page.author }}_bio">
-        <div class="post-author-avatar avatar_{{ page.author }}"></div>
-      </a>
 
-      <div class="avatar_text">
-        <span class="post-meta">
-          {{ page.date | date: "%b %-d, %Y" }}
-        </span>
-        <br>
-          {% case page.author %}
-            {% when 'jen' %}
-              <span>Jennifer Easterday</span>
-            {% when 'hana' %}
-              <span>Hana Ivanhoe</span>
-            {% when 'sergi' %}
-              <span>Sergi Mansilla</span>
-            {% else %}
-          {% endcase %}
-          {% else %}
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+      <div class="post-author"> 
+          <div class="avatar_text">
+            <span class="post-meta">
+              {{ page.date | date: "%b %-d, %Y" }}
+            </span>
+            by
+              <a href="/team/index.html#{{ page.author }}_bio">
+              {% case page.author %}
+                {% when 'jen' %}
+                  <span>Jennifer Easterday</span>
+                {% when 'hana' %}
+                  <span>Hana Ivanhoe</span>
+                {% when 'sergi' %}
+                  <span>Sergi Mansilla</span>
+                {% else %}
+              {% endcase %}
+              </a>
+          </div>
       </div>
-    </div>
-        {% endif %}
+
+    {% else %}
+
+      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+    {% endif %}
+
+    <h1 class="post-title">{{ page.title }}</h1>
+  
   </header>
 
   <article class="post-content">
