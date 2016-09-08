@@ -89,7 +89,7 @@ hr {
     transition: all .2s linear;
   }
 
-  @media screen and (max-width: 640px){
+  .footer &{
     display: block;
     margin-bottom: 1em;
     text-align: center;

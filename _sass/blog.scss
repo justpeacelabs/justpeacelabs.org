@@ -24,6 +24,9 @@
 
 .post-title {
 
+  margin-top: 0;
+  margin-bottom: 20px;
+
   a {
     color: $brand-color-dark;
   }
@@ -31,12 +34,9 @@
 
 .post-author {
   margin: 0;
-  padding: 0 0 1em calc(0.75em + 48px + 0.75em);
-  min-height: 58px;
+  padding: 0;
   box-sizing: content-box;
   position: relative;
-  display: table;
-  border-radius: 3px;
 }
 
 .post-link {
@@ -47,12 +47,6 @@
  // font-size: .75em;
   font-weight: 900;
   //color: $brand-color-warm;
-}
-
-.post-author-link {
-  display: block;
-  position: absolute;
-  left: 0;
 }
 
 .avatar_sergi { 
@@ -76,9 +70,9 @@
 }
 
 .avatar_text {
-  display: table-cell;
-  vertical-align: middle;
   line-height: 1.4;
   font-size: .8em;
-  height: 58px;
+  padding: 20px 0 10px 0;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
 }

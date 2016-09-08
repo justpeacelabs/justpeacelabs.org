@@ -11,21 +11,15 @@ layout: default_post
     <hr/>
     <header class="post-header">
 
-        <h2 class="post-title">
-            <a href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
-        </h2>
-
     {% if post.author %}
+
         <div class="post-author">
-            <a class="post-author-link" href="/team/index.html#{{ post.author }}_bio">
-              <div class="post-author-avatar avatar_{{ post.author }}">
-              </div>
-            </a>
             <div class="avatar_text">
                 <span class="post-meta">
                     {{ post.date | date: "%b %-d, %Y" }}
                 </span>
-                <br>
+                by
+                <a class="post-author-link" href="/team/index.html#{{ post.author }}_bio">
                 {% case post.author %}
                 {% when 'jen' %}
                 <span>Jennifer Easterday</span>
@@ -35,11 +29,19 @@ layout: default_post
                 <span>Sergi Mansilla</span>
                 {% else %}
                 {% endcase %}
-                {% else %}
-                <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+                </a>
             </div>
         </div>
+
+    {% else %}
+
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
+
     {% endif %}
+
+    <h2 class="post-title">
+        <a href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
+    </h2>
 
     </header>
 
