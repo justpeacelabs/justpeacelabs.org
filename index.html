@@ -2,26 +2,22 @@
 layout: default
 ---
 
-<div class="container">
-    <h2>Recent blog posts</h2>
-    <div class="row">
-        {% for post in site.posts %}
-        <div class="col-md-4 excerpt">
-            <h3>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                  {{ post.short-title }}
-                </a>
-            </h3>
-            <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
-            <p>{{ post.excerpt }}</p>
-            <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more +</a></p>
-        </div>
-        {% endfor %}
-    </div>
-    <hr />
-</div>
-
 <div class="container front_sections">
+    <h2>Mission &amp; Vision</h2>
+    <div class="row">
+
+        <div class="col-md-6">
+            <p>JustPeace Labs aims to empower local communities to be active participants in creating lasting just peace through the use of technology.</p>
+        </div>
+
+        <div class="col-md-6">
+            <p>We help peacebuilders ensure that their work is context-relevant,  supports local ownership, reduces corruption and facilitates transparency.</p>
+        </div>
+
+    </div>
+</div>
+<div class="container front_sections">
+    <hr />
     <div class="row">
 
         <article class="prose-home col-md-6">
@@ -45,19 +41,23 @@ layout: default
 
     </div>
 </div>
-
-<div class="container front_sections">
-    <hr />
-    <h2>Mission &amp; Vision</h2>
+<div class="container">
+    <h2>Recent blog posts</h2>
     <div class="row">
-
-        <div class="col-md-6">
-            <p>JustPeace Labs aims to empower local communities to be active participants in creating lasting just peace through the use of technology.</p>
+        {% for post in site.posts %}
+        <div class="col-md-4 excerpt">
+            <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                  {{ post.short-title }}
+                </a>
+            </h3>
+            <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
+            <p>{{ post.excerpt }}</p>
+            <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more +</a></p>
         </div>
-
-        <div class="col-md-6">
-            <p>We help peacebuilders ensure that their work is context-relevant,  supports local ownership, reduces corruption and facilitates transparency.</p>
-        </div>
-
+        {% endfor %}
     </div>
+    <hr />
 </div>
+
+
