@@ -42,9 +42,10 @@ layout: default
     </div>
 </div>
 <div class="container">
+    <hr />
     <h2>Recent blog posts</h2>
     <div class="row">
-        {% for post in site.posts %}
+        {% for post in site.posts offset: 0 limit: 3 %}
         <div class="col-md-4 excerpt">
             <h3>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -57,7 +58,6 @@ layout: default
         </div>
         {% endfor %}
     </div>
-    <hr />
 </div>
 
 
