@@ -3,47 +3,88 @@ layout: default
 ---
 
 <div class="container front_sections">
-    <h2>Mission &amp; Vision</h2>
+    <h3 class="section-title">What we do</h3>
     <div class="row">
+        <div class="col-md-12">
+            <p class="lead">
+                <b>
 
-        <div class="col-md-6">
-            <p>JustPeace Labs aims to empower local communities to be active participants in creating lasting just peace through the use of technology.</p>
-        </div>
-
-        <div class="col-md-6">
-            <p>We help peacebuilders ensure that their work is context-relevant,  supports local ownership, reduces corruption and facilitates transparency.</p>
+                JustPeace Labs empowers communities to create sustainable development through technology.
+              </b>
+            </p>
+            <p class="lead">
+                We’re working to build a world where people live in peaceful, inclusive and prosperous societies.
+            </p>
         </div>
 
     </div>
 </div>
+
 <div class="container front_sections">
-    <hr />
-    <div class="row">
+    <h3 class="section-title">Our approach</h3>
+    <div class="front-row">
 
-        <article class="prose-home col-md-6">
-            <h2>About</h2>
-            <p>JustPeace Labs works with peacebuilders using technology for peace to:</p>
+        <div class="approach_illustration">
+            <div class="approach_icon">
+                <img src="assets/noun_1093779_cc.svg" />
+            </div>
+        </div>
 
-            <ul>
-                <li>Improve access to easy-to-use software.</li>
-                <li>Enhance capacity to build customized apps.</li>
-                <li>Ensure an ethical and secure approach.</li>
-            </ul>
-        </article>
-
-        <article class="prose-home col-md-6">
-            <h2>We Offer</h2>
-            <p><strong>Technical assistance.</strong> We help peacebuilders easily create customized and targeted mobile apps.</p>
-            <p><strong>Ethics and Security.</strong> We help ensure ethical and secure approaches to tech in post-conflict situations.</p>
-            <p><strong>Capacity-building.</strong> We work with peacebuilders on incorporating technology into their work, from design to deployment.</p>
-            <p><strong>Research.</strong> We offer research and advice to peacebuilders, policymakers and and public and private organizations.</p>
-        </article>
-
+        <div class="approach_body">
+            <p class="lead">
+                <b>Technical assistance</b><br/> Helping peacebuilders and development specialists easily create customized
+                and targeted mobile apps.
+            </p>
+        </div>
     </div>
+    <div class="front-row">
+
+        <div class="approach_illustration">
+            <div class="approach_icon">
+                <img src="assets/noun_1210680_cc.svg" />
+            </div>
+        </div>
+        <div class="approach_body">
+            <p class="lead">
+                <b>Ethics and Security</b><br/> Helping ensure ethical and secure approaches to tech in post-conflict situations.</p>
+            </p>
+        </div>
+    </div>
+    <div class="front-row">
+
+        <div class="approach_illustration">
+            <div class="approach_icon">
+                <img src="assets/noun_151566_cc.svg" />
+            </div>
+        </div>
+        <div class="approach_body">
+            <p class="lead">
+                <b>Sustainability</b><br/> Striving for long-term solutions to hard problems, our approach aligns with the
+                UN Sustainable Development Goals.</p>
+        </div>
+    </div>
+    <div class="front-row">
+
+        <div class="approach_illustration">
+            <div class="approach_icon">
+                <img src="assets/noun_897959_cc.svg" />
+            </div>
+        </div>
+        <div class="approach_body">
+            <p class="lead">
+                <b>Research</b><br/> We offer research and advice to peacebuilders, policymakers and and public and private
+                organizations.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+</div>
 </div>
 <div class="container">
-    <hr />
-    <h2>Recent blog posts</h2>
+
+        <h3 class="section-title">Recent Blog Posts</h3>
     <div class="row">
         {% for post in site.posts offset: 0 limit: 3 %}
         <div class="col-md-4 excerpt">
@@ -59,5 +100,3 @@ layout: default
         {% endfor %}
     </div>
 </div>
-
-

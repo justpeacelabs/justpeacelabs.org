@@ -19,6 +19,16 @@
 <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 <script src="/assets/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.0.1/trianglify.min.js"></script>
+<script>
+	var pattern = Trianglify({
+		width: window.innerWidth,
+		height: window.innerHeight / 2,
+    cell_size: 60,
+    x_colors: ['#8CB7E1', '#FFFFFF']
+	});
+  document.getElementById('header-img').appendChild(pattern.svg())
+</script>
 <script>
   var codi = 'U' + 'A-621' + '215' + '16-2';
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
