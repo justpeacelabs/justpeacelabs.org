@@ -19,15 +19,16 @@
 <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 <script src="/assets/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.0.1/trianglify.min.js"></script>
+<script src="/assets/js/trianglify.min.js"></script>
 <script>
 	var pattern = Trianglify({
 		width: window.innerWidth,
-		height: window.innerHeight / 2,
     cell_size: 60,
-    x_colors: ['#8CB7E1', '#FFFFFF']
+    x_colors: ['#8CB7E1', '#FFFFFF', '#f9a870']
 	});
-  document.getElementById('header-img').appendChild(pattern.svg())
+  var svgCanvas = pattern.svg();
+  svgCanvas.setAttribute('style', 'height: 100%;');
+  document.getElementById('header-img').appendChild(svgCanvas)
 </script>
 <script>
   var codi = 'U' + 'A-621' + '215' + '16-2';
