@@ -26,9 +26,12 @@
     cell_size: 60,
     x_colors: ['#8CB7E1', '#FFFFFF', '#f9a870']
 	});
-  var svgCanvas = pattern.svg();
-  svgCanvas.setAttribute('style', 'height: 100%;');
-  document.getElementById('header-img').appendChild(svgCanvas)
+  // var svgCanvas = pattern.svg();
+  // svgCanvas.setAttribute('style', 'height: 100%;');
+  // document.getElementById('header-img').appendChild(svgCanvas)
+  var svgData = pattern.png();
+  console.log('background-image: ' + svgData)
+  document.querySelector('.header-img').setAttribute('style', 'background-image: url(' + svgData + ')');
 </script>
 <script>
   var codi = 'U' + 'A-621' + '215' + '16-2';
