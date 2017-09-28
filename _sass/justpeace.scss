@@ -130,25 +130,6 @@ hr {
     background-size: cover;
 }
 
-.motto {
-    // position: absolute;
-    // left: 0;
-    // width: 100%;
-    // height: 100%; // @media screen and (max-width: 768px) {
-    //   background-color: rgba(0, 0, 0, 0.33);
-    // }
-}
-
-.motto-question {
-    color: $brand-color-warm;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
-    display: block;
-}
-
 h1.motto-text {
     font-family: 'Helvetica Neue', Helvetica, 'Merriweather Sans', sans-serif;
     font-size: 2.4em;
@@ -158,7 +139,7 @@ h1.motto-text {
     text-align: center; // max-width: 65rem;
     text-transform: uppercase;
     margin-bottom: 40px;
-    margin-top: 50px;
+    margin-top: 30px;
     letter-spacing: 0.1em; // transform: translate(0, -50%);
     @media screen and (max-width: 500px) {
         font-size: 1.5em; // font-size: 24px;
@@ -439,11 +420,55 @@ body.scrolled .site-header {
     display: flex;
     flex-flow: column;
     height: 100%;
-    .filler {
-        flex: 1;
-        /* 1 and it will fill whole space left if no flex value are set to other children*/
-        overflow: auto;
+}
+
+.message {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    display: flex;
+    flex-flow: row;
+    @media (max-width: 750px) {
+        flex-flow: column;
     }
+    .text {
+        display: flex;
+        min-width: 280px; // flex-flow: column;
+        align-items: center;
+        /* Vertical center alignment */
+        padding-left: 20px;
+        @media (max-width: 750px) {
+            display: none;
+            visibility: hidden;
+        }
+        .lead {
+            font-weight: 600;
+            font-size: 21px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+.what-we-do {
+    @media (min-width: 750px) {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.screenshots {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.filler {
+    flex: 1;
+    /* 1 and it will fill whole space left if no flex value are set to other children*/
+    overflow: auto;
 }
 
 .front_sections {
@@ -532,12 +557,20 @@ body.scrolled .site-header {
     width: 100%;
     text-align: center;
     img {
-        max-width: 400px;
-        width: 50%;
+        // max-width: 400px;
+        @media (max-width: 640px) {
+            width: 200px;
+        }
+        @media (max-width: 800px) {
+            width: 250px;
+        }
+        @media (min-width: 800px) {
+            width: 350px;
+        }
     }
 }
 
 .subheader {
     border-top: 0px solid #0d3862;
-    border-bottom: 2px solid #0d3862;
+    border-bottom: 1px solid rgba(13, 57, 98, 0.42);
 }
