@@ -15,7 +15,9 @@
 
   </div>
 </footer>
-<script src="/assets/bootstrap-without-jquery.min.js"></script>
+<!-- <script src="/assets/bootstrap-without-jquery.min.js"></script> -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
 <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
 <script src="/assets/main.js"></script>
@@ -31,7 +33,7 @@
   // document.getElementById('header-img').appendChild(svgCanvas)
   var svgData = pattern.png();
   console.log('background-image: ' + svgData)
-  document.querySelector('.header-img').setAttribute('style', 'background-image: url(' + svgData + ')');
+  document.querySelector('#bs-carousel').setAttribute('style', 'background-image: url(' + svgData + ')');
 </script>
 <script>
   var codi = 'U' + 'A-621' + '215' + '16-2';
