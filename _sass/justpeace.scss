@@ -221,6 +221,7 @@ body.scrolled .site-header {
     -webkit-font-smoothing: antialiased;
     padding: 0 30px;
     line-height: 70px !important;
+    font-size: 18px;
     @media screen and (max-width: 768px) {
         border-bottom: 1px solid #efefef;
     }
@@ -457,12 +458,13 @@ body.scrolled .site-header {
     }
 }
 
-.what-we-do {
-    @media (min-width: 750px) {
-        display: none;
-        visibility: hidden;
-    }
-}
+// .what-we-do {
+//     @media (min-width: 750px) {
+//         display: none;
+//         visibility: hidden;
+//     }
+// }
+
 
 .screenshots {
     display: flex;
