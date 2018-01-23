@@ -12,8 +12,36 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://justpeacelabs.org" # the base hostname & protocol for your site
 twitter_username: justpeacelabs
 #github_username:  jekyll
+page_gen-dirs: true
+page_gen:
+  - data: 'site.data.contentful.spaces.site.2wKn6yEnZewu2SCCkus4as'
+    template: 'post'
+    name: 'slug'
+    dir: 'blog'
 
 # Build settings
 markdown: kramdown
 exclude: ["Makefile"]
 excerpt_separator: <!--more-->
+contentful:
+  spaces:
+    - site: # Jekyll _data folder identifier - Required
+        space: ENV_CONTENTFUL_SPACE_ID         # Required
+        access_token: ENV_CONTENTFUL_ACCESS_TOKEN  # Required
+        cda_query:                  # Optional
+          include: 2
+          limit: 100
+          content_type: 2wKn6yEnZewu2SCCkus4as
+        # cda_query:                  # Optional
+          # include: 2
+          # limit: 100
+        # all_entries: true           # Optional - Defaults to false, only grabbing the amount set on CDA Query
+        # all_entries_page_size: 1000 # Optional - Defaults to 1000, maximum amount of entries per CDA Request for all_entries
+        # content_types:              # Optional
+        #   cat: 2wKn6yEnZewu2SCCkus4as
+        # client_options:             # Optional
+          # api_url: 'preview.contentful.com' # Defaults to 'api.contentful.com' which is Production
+          # max_include_resolution_depth: 5 # Optional - Defaults to 20, maximum amount of levels to resolve includes
+        # base_path: app_path         # Optional - Defaults to Current directory
+        # destination: destination_in_data # Optional - Defaults to _data/contentful/spaces
+        # individual_entry_files: true # Optional - Defaults to false

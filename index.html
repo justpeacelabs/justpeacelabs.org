@@ -1,5 +1,5 @@
----
-layout: default
+--- 
+layout: default 
 ---
 <div class="container front_sections what-we-do">
     <h3 class="section-title">What we do</h3>
@@ -29,7 +29,8 @@ layout: default
 
         <div class="approach_body">
             <p class="lead">
-                <b>Technical assistance</b><br/> Creating customized and targeted mobile apps and software tools using the latest technologies.
+                <b>Technical assistance</b>
+                <br/> Creating customized and targeted mobile apps and software tools using the latest technologies.
             </p>
         </div>
     </div>
@@ -42,7 +43,8 @@ layout: default
         </div>
         <div class="approach_body">
             <p class="lead">
-                <b>Ethics and Security</b><br/> Promoting ethical and secure approaches to tech in post-conflict situations.</p>
+                <b>Ethics and Security</b>
+                <br/> Promoting ethical and secure approaches to tech in post-conflict situations.</p>
             </p>
         </div>
     </div>
@@ -55,7 +57,10 @@ layout: default
         </div>
         <div class="approach_body">
             <p class="lead">
-                <b>Sustainability</b><br/> Striving for long-term solutions to hard problems, our approach aligns with the UN Sustainable Development Goals.</p>
+                <b>Sustainability</b>
+                <br/> Striving for long-term solutions to hard problems, our approach aligns with the UN Sustainable Development
+                Goals.
+            </p>
         </div>
     </div>
     <div class="front-row">
@@ -67,7 +72,8 @@ layout: default
         </div>
         <div class="approach_body">
             <p class="lead">
-                <b>Research</b><br/> Providing research and advice to peacebuilders, policymakers and corporations.
+                <b>Research</b>
+                <br/> Providing research and advice to peacebuilders, policymakers and corporations.
             </p>
         </div>
     </div>
@@ -78,18 +84,20 @@ layout: default
 </div>
 <div class="container">
 
-        <h3 class="section-title">Recent Blog Posts</h3>
+    <h3 class="section-title">Recent Blog Posts</h3>
     <div class="row">
         {% for post in site.posts offset: 0 limit: 3 %}
         <div class="col-md-4 excerpt">
             <h3>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                  {{ post.short-title }}
+                    {{ post.short-title }}
                 </a>
             </h3>
             <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
             <p>{{ post.excerpt }}</p>
-            <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more +</a></p>
+            <p>
+                <a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more +</a>
+            </p>
         </div>
         {% endfor %}
     </div>

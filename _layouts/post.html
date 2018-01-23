@@ -1,44 +1,30 @@
----
-layout: default_post
+--- 
+layout: default_post 
 ---
 <div class="post">
 
   <header class="post-header">
 
-    {% if page.author %}
-
-      <div class="post-author"> 
-          <div class="avatar_text">
-            <span class="post-meta">
-              {{ page.date | date: "%b %-d, %Y" }}
-            </span>
-            by
-              <a href="/team/index.html#{{ page.author }}_bio">
-              {% case page.author %}
-                {% when 'jen' %}
-                  <span>Jennifer Easterday</span>
-                {% when 'hana' %}
-                  <span>Hana Ivanhoe</span>
-                {% when 'sergi' %}
-                  <span>Sergi Mansilla</span>
-                {% else %}
-              {% endcase %}
-              </a>
-          </div>
+    <div class="post-author">
+      <div class="avatar_text">
+        <span class="post-meta">
+          {{ page.sys.created_at | date: "%b %-d, %Y" }}
+        </span>
+        by
+        <a class="post-author-link" href="{{ post.author.website }}">
+          <span>{{ page.author[0].name }}</span>
+        </a>
       </div>
-
-    {% else %}
-
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-
-    {% endif %}
+    </div>
 
     <h1 class="post-title">{{ page.title }}</h1>
-  
+
   </header>
 
   <article class="post-content">
-    {{ content }}
+    {% markdown %}
+    {{ page.body }}
+    {% endmarkdown %}
   </article>
 
 </div>

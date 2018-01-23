@@ -1,58 +1,49 @@
----
-title: BLOG
-permalink: /blog/
-layout: default_post
+--- 
+title: BLOG 
+permalink: /blog/ 
+layout: default_post 
 ---
 
 <h1 class="blog-headline">Latest blog posts:</h1>
+{% for types in site.data.contentful.spaces.site %}
+{% for type in types %}
+{% for post in type %}
+{% if post.title %}
 
-{% for post in site.posts %}
 <div class="post">
     <hr/>
     <header class="post-header">
-
-    {% if post.author %}
-
         <div class="post-author">
             <div class="avatar_text">
                 <span class="post-meta">
-                    {{ post.date | date: "%b %-d, %Y" }}
+                    {{ post.sys.created_at | date: "%b %-d, %Y" }}
                 </span>
                 by
-                <a class="post-author-link" href="/team/index.html#{{ post.author }}_bio">
-                {% case post.author %}
-                {% when 'jen' %}
-                <span>Jennifer Easterday</span>
-                {% when 'hana' %}
-                <span>Hana Ivanhoe</span>
-                {% when 'sergi' %}
-                <span>Sergi Mansilla</span>
-                {% else %}
-                {% endcase %}
+                <a class="post-author-link" href="{{ post.author.website }}">
+                    <span>{{ post.author[0].name }}</span>
                 </a>
             </div>
         </div>
 
-    {% else %}
-
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
-
-    {% endif %}
-
-    <h2 class="post-title">
-        <a href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
-    </h2>
+        <h2 class="post-title">
+            <a href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
+        </h2>
 
     </header>
 
-<article class="post-content">
-    {{ post.excerpt }}
-    <p><a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}/">Read more +</a></p>
-</article>
+    <article class="post-content">
+        {{ post.slug }}
+        <p>
+            <a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}/">Read more +</a>
+        </p>
+    </article>
 
 </div>
 
+
+{% endif %}
+{% endfor %}
+{% endfor %}
 {% endfor %}
 
 <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
-
