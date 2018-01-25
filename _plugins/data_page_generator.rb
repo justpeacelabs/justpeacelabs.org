@@ -33,7 +33,6 @@ module Jekyll
     def initialize(site, base, index_files, dir, data, name, template, extension)
       @site = site
       @base = base
-puts("---", URL.new(:permalink    => "/blog/:year-:month-:day/:title/").generated_permalink)
       # @dir is the directory where we want to output the page
       # @name is the name of the page to generate
       #

@@ -5,8 +5,8 @@
       <div class="container">
         <div class="logo-container">
           <a href="/">
-              <img class="imglogo" src="/assets/jpl-logo.svg">
-            </a>
+            <img class="imglogo" src="/assets/jpl-logo.svg">
+          </a>
         </div>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
@@ -24,14 +24,15 @@
             <li role="presentation" class="active">
               <a href="/">HOME</a>
             </li>
-            {% for page in site.pages %} {% if page.title %}
             <li role="presentation" class="active">
-              <a href="{{ page.url | prepend: site.baseurl }}">
-                    {{ page.title }}
-                </a></li>
-            {% endif %} {% endfor %}
+              <a href="/blog">BLOG</a>
+            </li>
+            <li role="presentation" class="active">
+              <a href="/about">ABOUT</a>
+            </li>
             <li class="active" style="background-color: #f78a3f;">
-              <a style="color: white; font-weight: bold; padding: 0 25px" href="https://goo.gl/33bWR3" alt="JustPeace Labs Ethical Guidelines">Ethical Guidelines</a></li>
+              <a style="color: white; font-weight: bold; padding: 0 25px" href="https://goo.gl/33bWR3" alt="JustPeace Labs Ethical Guidelines">Ethical Guidelines</a>
+            </li>
           </ul>
         </div>
 

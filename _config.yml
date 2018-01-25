@@ -31,7 +31,7 @@ contentful:
         cda_query:                  # Optional
           include: 2
           limit: 100
-          content_type: 2wKn6yEnZewu2SCCkus4as
+          # content_type: 2wKn6yEnZewu2SCCkus4as
         # cda_query:                  # Optional
           # include: 2
           # limit: 100

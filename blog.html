@@ -5,45 +5,43 @@ layout: default_post
 ---
 
 <h1 class="blog-headline">Latest blog posts:</h1>
-{% for types in site.data.contentful.spaces.site %}
-{% for type in types %}
-{% for post in type %}
-{% if post.title %}
-
-<div class="post">
-    <hr/>
-    <header class="post-header">
-        <div class="post-author">
-            <div class="avatar_text">
-                <span class="post-meta">
-                    {{ post.sys.created_at | date: "%b %-d, %Y" }}
-                </span>
+{% assign test = site.data.contentful.spaces.site %}
+{% for types in test %}
+    {% for type in types %}
+        {% if type.first %}
+            {% assign posts = type | sort: 'date' | reverse %}
+            {% for post in posts %}
+                {% if post.title %}
+    <div class="post">
+        {% if post != posts[0] %}<hr/>{% endif %}
+        <header class="post-header">
+            <div class="post-author">
+                <div class="avatar_text">
+                    <span class="post-meta">
+                        {{ post.date | date: "%b %-d, %Y" }}
+                    </span>
                 by
-                <a class="post-author-link" href="{{ post.author.website }}">
+                <!-- <a class="post-author-link" href="{{ post.author.website }}"> -->
                     <span>{{ post.author[0].name }}</span>
-                </a>
+                    <!-- </a> -->
+                </div>
             </div>
-        </div>
-
-        <h2 class="post-title">
-            <a href="{{ post.url | prepend: site.baseurl }}/">{{ post.title }}</a>
-        </h2>
-
-    </header>
-
-    <article class="post-content">
-        {{ post.slug }}
-        <p>
-            <a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}/">Read more +</a>
-        </p>
-    </article>
-
-</div>
-
-
-{% endif %}
-{% endfor %}
-{% endfor %}
+            <h2 class="post-title">
+                <a href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">{{ post.title }}</a>
+            </h2>
+        </header>
+        
+        <article class="post-content">
+            <p>
+                <a class="pagelink pagelink-readmore" href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">Read more +</a>
+            </p>
+        </article>
+    </div>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+        {% endif %}
+    {% endfor %}
 {% endfor %}
 
 <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
