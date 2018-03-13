@@ -11,7 +11,7 @@ body {
     padding-top: 70px;
     font-family: 'Helvetica Neue', 'Merriweather Sans', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
     color: $brand-color-dark;
     -webkit-font-smoothing: antialiased; // @media screen and (min-width: 480px) and (max-width: 768px) {
@@ -362,7 +362,7 @@ body.scrolled .site-header {
     width: 120px;
     height: auto;
     margin: 15px 5px 10px 20px;
-    transform: rotateX(4deg) rotateY(1deg) rotateZ(4deg);
+    // transform: rotateX(4deg) rotateY(1deg) rotateZ(4deg);
     box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.3);
     border: 6px solid #fff;
     @media screen and (min-width: 1024px) {
@@ -370,11 +370,11 @@ body.scrolled .site-header {
     }
 }
 
-.face-picture.floatright {
+.face-picture:nth-child(odd)  {
     float: right;
 }
 
-.face-picture.floatleft {
+.face-picture:nth-child(even)  {
     float: left;
     margin: 15px 20px 10px 5px;
     transform: rotateX(-4deg) rotateY(-1deg) rotateZ(-4deg);
@@ -395,6 +395,7 @@ body.scrolled .site-header {
     letter-spacing: .12em;
     opacity: .8;
     margin-bottom: 1.5em;
+    font-size: 18px;
 }
 
 .section-title:after {
@@ -435,6 +436,7 @@ body.scrolled .site-header {
     height: 200px;
     display: flex;
     flex-flow: row;
+    font-size: 14px;
     @media (max-width: 750px) {
         flex-flow: column;
     }

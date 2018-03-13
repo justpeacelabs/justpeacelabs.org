@@ -5,19 +5,24 @@ layout: default_post
 ---
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">The Team</h1>
+    <h1 class="post-title">About</h1>
   </header>
-
+  <p>
+    We are a US 501(c)(3) non-profit organization based in San Francisco, CA, and Barcelona, Spain. We are passionate about using technology for good. JustPeace Labs offers technical assistance to help organizations create and deploy software for peacebuilding, human rights and development work. We also promote ethical and conflict-sensitive approaches to using technology in complex settings. Contact us to discuss how we can work together.
+  </p>
+  <h1 class="post-title">Our team</h1>
 {% for types in site.data.contentful.spaces.site %}
 {% for type in types %}
 {% for author in type %}
 {% if author.biography %}
-
-  <article class="bio-content">
-    <h3>{{author.name}}</h3>
-    {% markdown %}{{author.biography}}{% endmarkdown %}
-  </article>
-  <hr/>
+<p>
+  <img class="face-picture" src="/assets/{{author.sys.id}}.jpg" alt="{{author.name}}">
+</p>
+<article class="bio-content">
+  <h3>{{author.name}}</h3>
+  {% markdown %}{{author.biography}}{% endmarkdown %}
+</article>
+<hr/>
 {% endif %}
 {% endfor %}
 {% endfor %}

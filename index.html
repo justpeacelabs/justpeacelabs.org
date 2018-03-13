@@ -11,7 +11,8 @@ layout: default
                 </b>
             </p>
             <p class="lead">
-                We’re working to build a world where people live in peaceful, inclusive and prosperous societies. Striving for long-term solutions to hard problems, our approach aligns with the UN Sustainable Development Goals. 
+                We’re working to build a world where people live in peaceful, inclusive and prosperous societies. Striving for long-term
+                solutions to hard problems, our approach aligns with the UN Sustainable Development Goals.
             </p>
         </div>
     </div>
@@ -19,6 +20,11 @@ layout: default
 
 <div class="container front_sections">
     <h3 class="section-title">Our approach</h3>
+    <div class="approach_body">
+        <p class="lead">
+              
+        </p>
+    </div>
     <div class="front-row">
 
         <div class="approach_illustration">
@@ -44,24 +50,25 @@ layout: default
         <div class="approach_body">
             <p class="lead">
                 <b>Ethics and Security</b>
-                <br/>Promoting ethical and secure approaches to tech in complex settings.</p>
+                <br/>Promoting ethical and secure approaches to tech in complex settings.
             </p>
         </div>
     </div>
-    <div class="front-row">
+    <!--
+        <div class="front-row">
 
         <div class="approach_illustration">
             <div class="approach_icon">
                 <img src="assets/noun_151566_cc.svg" />
             </div>
         </div>
-        <div class="approach_body">
+         <div class="approach_body">
             <p class="lead">
                 <b>Sustainability</b>
                 <br/> Striving for long-term solutions to hard problems.
             </p>
-        </div>
-    </div>
+        </div> 
+    </div>-->
     <div class="front-row">
 
         <div class="approach_illustration">
@@ -72,24 +79,27 @@ layout: default
         <div class="approach_body">
             <p class="lead">
                 <b>Research</b>
-                <br/> Providing research and advice to peacebuilders, policymakers and corporations. 
+                <br/> Providing research and advice to peacebuilders, policymakers and corporations.
             </p>
         </div>
     </div>
 </div>
 
-
-</div>
-</div>
 <div class="container">
 
     <h3 class="section-title">Recent Blog Posts</h3>
     <div class="row">
-        {% for post in site.posts offset: 0 limit: 3 %}
+            {% assign test = site.data.contentful.spaces.site %}
+            {% for types in test %}
+                {% for type in types %}
+                    {% if type.first %}
+                        {% assign posts = type | sort: 'date' | reverse %}
+                        {% for post in posts  offset: 0 limit: 3 %}
+                            {% if post.title %}
         <div class="col-md-4 excerpt">
             <h3>
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    {{ post.short-title }}
+                    {{ post.title }}
                 </a>
             </h3>
             <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
@@ -98,6 +108,11 @@ layout: default
                 <a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more +</a>
             </p>
         </div>
-        {% endfor %}
+        {% endif %}
+            {% endfor %}
+        {% else %}
+        {% endif %}
+    {% endfor %}
+{% endfor %}
     </div>
 </div>
