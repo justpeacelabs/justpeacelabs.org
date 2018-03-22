@@ -22,7 +22,7 @@ layout: default
     <h3 class="section-title">Our approach</h3>
     <div class="approach_body">
         <p class="lead">
-              
+
         </p>
     </div>
     <div class="front-row">
@@ -89,30 +89,18 @@ layout: default
 
     <h3 class="section-title">Recent Blog Posts</h3>
     <div class="row">
-            {% assign test = site.data.contentful.spaces.site %}
-            {% for types in test %}
-                {% for type in types %}
-                    {% if type.first %}
-                        {% assign posts = type | sort: 'date' | reverse %}
-                        {% for post in posts  offset: 0 limit: 3 %}
-                            {% if post.title %}
+        {% assign test = site.data.contentful.spaces.site %} {% for types in test %} {% for type in types %} {% if type.first %}
+        {% assign posts = type | sort: 'date' | reverse %} {% for post in posts offset: 0 limit: 3 %} {% if post.title %}
         <div class="col-md-4 excerpt">
             <h3>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    {{ post.title }}
-                </a>
+                <a class="post-link" href="{{site.baseurl}}blog/{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">{{ post.title }}</a>
             </h3>
             <!--<p><i>{{ post.date | date: "%b %-d, %Y" }}</i></p>-->
             <p>{{ post.excerpt }}</p>
             <p>
-                <a class="pagelink pagelink-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more +</a>
+                <a class="pagelink pagelink-readmore" href="{{site.baseurl}}blog/{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">Read more +</a>
             </p>
         </div>
-        {% endif %}
-            {% endfor %}
-        {% else %}
-        {% endif %}
-    {% endfor %}
-{% endfor %}
+        {% endif %} {% endfor %} {% else %} {% endif %} {% endfor %} {% endfor %}
     </div>
 </div>

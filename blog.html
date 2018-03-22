@@ -30,12 +30,6 @@ layout: default_post
                 <a href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">{{ post.title }}</a>
             </h2>
         </header>
-        
-        <article class="post-content">
-            <p>
-                <a class="pagelink pagelink-readmore" href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">Read more +</a>
-            </p>
-        </article>
     </div>
                 {% endif %}
             {% endfor %}
