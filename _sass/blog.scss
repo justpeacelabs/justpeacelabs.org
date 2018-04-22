@@ -3,7 +3,9 @@
  * Override Bootstrap's default container.
  */
 @media (min-width: 768px) {
-  .post,
+  .post {
+    margin: 30px;
+  }
   .blog-headline {
     margin-left: 210px;
     max-width: 40em;
