@@ -2,17 +2,24 @@
 layout: default 
 ---
 
-<div class="container-fluid front_sections jpl-block first-block">
+<div class="container-fluid front_sections main-block">
     <div class="row">
         <!-- <h3 class="section-title">What we do</h3> -->
-        <div class="objective col-md-6">
+        <div class="objective col-md-6 hidden-xs">
+            <div>
             <strong>
                 We empower communities
-                <br/> to create peace
-                <br/> through technology
+                to create peace
+                through technology
             </strong>
+            </div>
         </div>
         <div class="message col-md-6">
+            <div class="visible-xs-block objective-small"><strong>
+                    We empower communities
+                    to create peace
+                    through technology
+                </strong></div>
             <div class="screenshots">
               <div id="phone_screenshot">
                 <img src="/assets/img/ht_screenshot.png" />
@@ -46,20 +53,24 @@ layout: default
     </div>
 </div>
 
-<div class="container-fluid front_sections jpl-block">
-        <div class="row text-center">
-            <div class="container container-smaller">
+<div class="container-fluid front_sections jpl-block-blue">
+        <div class="row text-center valign">
+            <div class="container container-smaller col-md-6">
                 <h1 class="post-title">HateTracker App</h1>
                 <hr class="bigHr">
-                <p class="whoweare-para">
-                    We are a US 501(c)(3) non-profit organization based in San Francisco and Barcelona. We are passionate about using
-                    technology for good. JustPeace Labs offers technical assistance to help organizations create software
-                    for peacebuilding, human rights and development work.
-                </p>    
-                <p class="whoweare-para">
-                    We also promote ethical and conflict-sensitive approaches
-                    to using technology in complex settings. Contact us to discuss how we can work together.
-                </p>
+                <div class="visible-xs-block">
+                        <img style="width:150px;padding:20px" src="/assets/img/ht_eye.png" />
+                      </div>
+                <p>Hatred and intolerance threaten and divide our communities. Governments and civil society alike struggle to respond to and track increased incidents of hate crimes.</p>
+
+            <p>Data is necessary to understand, strategize, and collectively mobilize against hate. With data, we can combat these incidents and facilitate trust and collaboration between the community and law enforcement. To respond to this need, we developed HateTracker.</p>
+
+        <p><a href="https://hatetracker.org">HateTracker</a> is a secure web-based app to report hate incidents people experience or witness.</p>
+            </div>
+            <div class="col-md-6 hidden-xs">
+                    <div>
+                            <img src="/assets/img/ht_eye.png" />
+                          </div>
             </div>
         </div>
     </div>
@@ -131,7 +142,7 @@ layout: default
     </div>
 </div>
 
-<div class="container-fluid front_sections jpl-block-blue">
+<div id="the_team" class="container-fluid front_sections jpl-block-blue">
     <div class="row text-center">
         <div class="container">
             <h1 class="post-title">The Team</h1>

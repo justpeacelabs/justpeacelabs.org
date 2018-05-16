@@ -374,7 +374,18 @@ body.scrolled .site-header {
   margin-bottom: 0;
   background-color: transparent;
 }
-
+.main-block {
+  min-height:400px;
+  background-color: white;
+  .narrower-para {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    text-justify: auto;
+    line-height: 1.8;
+  }
+}
 .jpl-block {
   padding: 50px;
   background-color: white;
@@ -524,10 +535,10 @@ hr {
 }
 
 .message {
-  max-width: 90%;
+  // max-width: 90%;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
+  height: 400px;
   display: flex;
   flex-flow: row;
   font-size: 14px;
@@ -557,6 +568,22 @@ hr {
 .objective {
   font-size: 3em;
   line-height: 1.2;
+  height: 400px;
+  text-align: center;
+  display: table;
+}
+
+.objective-small {
+  font-size: 2em;
+  line-height: 1.2;
+  text-align: center;
+  padding: 20px;
+}
+
+.objective > div {
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
 }
 
 // .what-we-do {
@@ -661,6 +688,8 @@ hr {
 }
 
 #phone_screenshot {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   text-align: center;
   img {
@@ -834,3 +863,5 @@ Image credits: unsplash.com
 .fade-carousel .slides .slide-3 {
   //   background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
 }
+
+.valign {display:flex;align-items:center;}
