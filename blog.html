@@ -4,15 +4,16 @@ permalink: /blog/
 layout: default_post 
 ---
 
-<h1 class="blog-headline">Latest blog posts:</h1>
+<div class="post">
+        <div class="jpl-block">
+          <h1 class="post-title">Latest blog posts</h1>
 {% assign test = site.data.contentful.spaces.site %}
 {% for types in test %}
-    {% for type in types %}
-        {% if type.first %}
-            {% assign posts = type | sort: 'date' | reverse %}
-            {% for post in posts %}
-                {% if post.title %}
-    <div class="post">
+{% for type in types %}
+{% if type.first %}
+{% assign posts = type | sort: 'date' | reverse %}
+{% for post in posts %}
+{% if post.title %}
         {% if post != posts[0] %}<hr/>{% endif %}
         <header class="post-header">
             <div class="post-author">
@@ -30,12 +31,12 @@ layout: default_post
                 <a href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">{{ post.title }}</a>
             </h2>
         </header>
-    </div>
-                {% endif %}
-            {% endfor %}
-        {% else %}
-        {% endif %}
-    {% endfor %}
+{% endif %}
 {% endfor %}
-
+{% else %}
+{% endif %}
+{% endfor %}
+{% endfor %}
+</div>
+</div>
 <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->

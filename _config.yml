@@ -21,13 +21,22 @@ page_gen:
 
 # Build settings
 markdown: kramdown
-exclude: ["Makefile"]
+exclude: 
+- Dockerfile
+- .firebaserc
+- .gitignore
+- Gemfile
+- Gemfile.lock
+- docker-compose.yml
+- firebase.json
+- Makefile
+
 excerpt_separator: <!--more-->
 contentful:
   spaces:
     - site: # Jekyll _data folder identifier - Required
-        space: ENV_CONTENTFUL_SPACE_ID         # Required
-        access_token: ENV_CONTENTFUL_ACCESS_TOKEN  # Required
+        space: 0p3n5dhw2rug         # Required
+        access_token: 03cb6af64ba069b279c24e7a282020abea8f48e08febba7530383d07eb6e9851  # Required
         cda_query:                  # Optional
           include: 2
           limit: 100

@@ -1,6 +1,42 @@
-<footer>
-  <div class="container footer">
-    <h2>Get in touch</h2>
+<footer class="footer">
+  <div class="container footer-container text-muted small">
+    <div class="row">
+      <div class="col-md-3 text-capitalize">
+        <div class="logo-container-footer">
+          <a href="/">
+            <img class="imglogo-footer" src="/assets/jpl-logo.png">
+          </a>
+        </div>
+        <div class="container">
+          <div class="row">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-capitalize">
+        <p class="text-uppercase">Products</p>
+        <ul class="list-unstyled small">
+          <li>HateTracker App</li>
+          <li>Ethics Guidelines</li>
+          <li>EWER Myanmar</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-capitalize">
+        <p class="text-uppercase">JustPeace Labs</p>
+        <ul class="list-unstyled small">
+          <li>About Us</li>
+        </ul>
+      </div>
+      <div class="col-md-3 text-capitalize">
+        <p class="text-uppercase">Resources</p>
+        <ul class="list-unstyled small">
+          <li>About Us</li>
+        </ul>
+      </div>
+    </div>
+    <!-- <h2>Get in touch</h2>
     <a class="pagelink-readmore" href="https://twitter.com/justpeacelabs">
       Twitter:
       <svg class="twitter-logo" viewBox="0 0 16 16">
@@ -10,28 +46,24 @@
       <span>&nbsp;@justpeacelabs</span>
     </a>
 
-    <a class="pagelink-readmore" href="mailto:info@justpeacelabs.org">Email: info@justpeacelabs.org</a>
+    <a class="pagelink-readmore" href="mailto:info@justpeacelabs.org">Email: info@justpeacelabs.org</a> -->
 
   </div>
 </footer>
-<!-- <script src="/assets/bootstrap-without-jquery.min.js"></script> -->
 <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
-<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+  crossorigin="anonymous"></script>
 <script src="/assets/main.js"></script>
 <script src="/assets/js/trianglify.min.js"></script>
 <script>
-	var pattern = Trianglify({
-		width: window.innerWidth,
+  var pattern = Trianglify({
+    width: window.innerWidth,
     cell_size: 60,
     x_colors: ['#8CB7E1', '#FFFFFF', '#f9a870']
-	});
+  });
   // var svgCanvas = pattern.svg();
   // svgCanvas.setAttribute('style', 'height: 100%;');
   // document.getElementById('header-img').appendChild(svgCanvas)
   var svgData = pattern.png();
-  console.log('background-image: ' + svgData)
-  document.querySelector('#bs-carousel').setAttribute('style', 'background-image: url(' + svgData + ')');
+  document.querySelector('.first-block').setAttribute('style', 'background-image: url(' + svgData + ')');
 </script>
-

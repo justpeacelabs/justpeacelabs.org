@@ -5,6 +5,7 @@
 
 $brand-color-warm: rgb(249,168,112);
 $brand-color-dark: rgb(13,56,98);
+$dark-blue-jpl: #0d3862;
 $text-color: #333;
 /*
 // Our variables
@@ -47,8 +48,6 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 */
 @import
-        /*"base",*/
-        /*"layout"*/
         "justpeace",
         "blog"
         //"syntax-highlighting"
