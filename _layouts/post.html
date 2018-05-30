@@ -1,12 +1,13 @@
---- 
-layout: default_post 
 ---
-<div class="post">
+layout: default_post
+---
+<div class="post" style="width:80%; max-width: 740px; margin-left: auto; margin-right: auto;">
 
   <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
 
     <div class="post-author">
-      <div class="avatar_text">
+      <div class="avatar_text" style="text-align: center; padding:20px;">
         <span class="post-meta">
           {{ page.date | date: "%b %-d, %Y" }}
         </span>
@@ -16,12 +17,9 @@ layout: default_post
         <!-- </a> -->
       </div>
     </div>
-
-    <h1 class="post-title">{{ page.title }}</h1>
-
   </header>
 
-  <article class="post-content">
+  <article class="post-content" style="line-height: 1.8">
 {% markdown %}
 {{ page.body | strip }}
 {% endmarkdown %}
