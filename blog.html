@@ -16,9 +16,9 @@ layout: default_post
 {% if post.title %}
         {% if post != posts[0] %}<hr/>{% endif %}
         <header class="post-header">
-            <h2 class="post-title">
+            <h3 class="post-title">
                 <a href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">{{ post.title }}</a>
-            </h2>
+            </h3>
             <div class="post-author">
                 <div class="avatar_text" style="text-align: center">
                     <span class="post-meta">
