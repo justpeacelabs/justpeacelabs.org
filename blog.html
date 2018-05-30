@@ -1,7 +1,7 @@
---- 
-title: BLOG 
-permalink: /blog/ 
-layout: default_post 
+---
+title: BLOG
+permalink: /blog/
+layout: default_post
 ---
 
 <div class="post">
@@ -16,8 +16,11 @@ layout: default_post
 {% if post.title %}
         {% if post != posts[0] %}<hr/>{% endif %}
         <header class="post-header">
+            <h2 class="post-title">
+                <a href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">{{ post.title }}</a>
+            </h2>
             <div class="post-author">
-                <div class="avatar_text">
+                <div class="avatar_text" style="text-align: center">
                     <span class="post-meta">
                         {{ post.date | date: "%b %-d, %Y" }}
                     </span>
@@ -27,9 +30,6 @@ layout: default_post
                     <!-- </a> -->
                 </div>
             </div>
-            <h2 class="post-title">
-                <a href="{{site.baseurl}}{{ post.date | date: '%Y-%m-%d' }}/{{ post.slug }}">{{ post.title }}</a>
-            </h2>
         </header>
 {% endif %}
 {% endfor %}
