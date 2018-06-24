@@ -6,11 +6,16 @@ layout: default_post
 <div class="post">
   <div class="jpl-block">
     <h1 class="post-title">Hate Crimes Data </h1>
+    <div class="col-md-12" style="padding:10px;text-align:center">
+        <div>
+            <img src="/assets/img/ht_eye.png" />
+        </div>
+    </div>
     <div class="narrower-para">
 {% markdown %}
 Hatred and intolerance threaten and divide our communities. Governments and civil society alike struggle to respond to and track increased incidents of hate crimes. 
 
-Data is necessary to understand, strategize, and collectively mobilize against hate. With data, we can combat these incidents and facilitate trust and collaboration between the community and law enforcement. To respond to this need, we developed HateTracker.
+Data is necessary to understand, strategize, and collectively mobilize against hate. With data, we can combat these incidents and facilitate trust and collaboration between the community and law enforcement. To respond to this need, we developed [HateTracker](https://hatetracker.org).
 
 HateTracker is a secure web-based app to report hate incidents people experience or witness.
 ### Web-based. 

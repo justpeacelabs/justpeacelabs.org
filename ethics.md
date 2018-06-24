@@ -20,3 +20,4 @@ This is why we are developing a core set of practical guidelines for peacetech:
 4. Ethical Coding for PeaceTech Programmers
 
 Together, we hope that this comprehensive set of guidelines will help promote the ethical use of ICT in post-conflict contexts.
+<div style="margin-bottom: 100px;" />

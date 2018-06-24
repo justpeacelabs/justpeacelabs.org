@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-$footer-height: 200px;
+$footer-height-desktop: 200px;
+$footer-height-mobile: 300px;
 
 * {
   margin: 0;
@@ -22,7 +23,7 @@ body {
   color: $brand-color-dark;
   -webkit-font-smoothing: antialiased;
   background-color: white;
-  margin-bottom: $footer-height;
+  position: relative;
 }
 
 // body > .container-fluid {
@@ -53,12 +54,17 @@ hr {
 }
 
 .footer {
-  // position: absolute;
-  // bottom: 0;
+  background-color: $dark-blue-jpl;
+  @media screen and (min-width: 576px) {
+    height: $footer-height-desktop;
+  }
+  @media screen and (max-width: 576px) {
+    height: $footer-height-mobile;
+  }
+  position: absolute;
+  // bottom: -100px;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: $footer-height;
-  background-color: white;
+  color: white;
 }
 
 .footer > .container {
@@ -375,7 +381,7 @@ body.scrolled .site-header {
   background-color: transparent;
 }
 .main-block {
-  min-height:400px;
+  min-height: 400px;
   background-color: white;
   .narrower-para {
     width: 90%;
@@ -439,7 +445,7 @@ hr {
   height: 3px !important;
   color: $brand-color-warm;
   // background-color: #ed1d61;
-  width: 50px
+  width: 50px;
 }
 
 .bigHr {
@@ -581,9 +587,9 @@ hr {
 }
 
 .objective > div {
-  display: table-cell; 
-  vertical-align: middle; 
-  text-align: center; 
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 // .what-we-do {
@@ -864,4 +870,7 @@ Image credits: unsplash.com
   //   background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
 }
 
-.valign {display:flex;align-items:center;}
+.valign {
+  display: flex;
+  align-items: center;
+}
