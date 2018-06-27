@@ -6,8 +6,9 @@ id: 'ethics'
 ---
   <div class="jpl-block row">
   <div style="margin: 0 auto; max-width: 900px">
+<h1 class="post-title">Ethics and Security</h1>
+<hr class="bigHr">
 {% markdown %}
-# Ethics and Security
 	
 Peacebuilding programs are increasingly turning to technology to connect with and assist local communities in post-conflict and other complex contexts. Private companies are rapidly expanding into new complex markets that are experiencing conflict.  
 
