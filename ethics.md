@@ -1,8 +1,12 @@
 ---
 title: ETHICS AND SECURITY
 permalink: /ethics/
-layout: default_post
+layout: default
+id: 'ethics'
 ---
+  <div class="jpl-block row">
+  <div style="margin: 0 auto; max-width: 900px">
+{% markdown %}
 # Ethics and Security
 	
 Peacebuilding programs are increasingly turning to technology to connect with and assist local communities in post-conflict and other complex contexts. Private companies are rapidly expanding into new complex markets that are experiencing conflict.  
@@ -20,4 +24,7 @@ This is why we are developing a core set of practical guidelines for peacetech:
 4. Ethical Coding for PeaceTech Programmers
 
 Together, we hope that this comprehensive set of guidelines will help promote the ethical use of ICT in post-conflict contexts.
+{% endmarkdown %}
+</div>
+</div>
 <div style="margin-bottom: 100px;" />
