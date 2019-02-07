@@ -5,20 +5,22 @@
     created_at: !ruby/object:DateTime 2018-03-21 14:55:15.228000000 Z
     updated_at: !ruby/object:DateTime 2018-03-21 14:56:56.547000000 Z
     content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 2
   title: Why We Need Ethical Standards for the ICT Industry
   slug: why-we-need-ethical-standards-for-the-ict-industry
   author:
   - sys:
       id: 4Wf6iYb9yMGwwmIOSoMg40
       created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
       content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
     name: Jennifer Easterday
     biography: Jennifer is an attorney specializing in public international law, international
       criminal law, human rights law and peacebuilding. Her work with NGOs and international
       tribunals focuses on strengthening international responses to armed conflict
       and mass human rights abuses in Africa, Latin America and Europe.
-    role: CEO and Co-founder
+    role: Co-Founder and Executive Director
   body: "Ethical technology has never before been as critical, or as hotly debated,
     as it is today. Technology--specifically, information and communication technology
     (ICT)--is being critiqued for its influence on issues as wide-ranging as privacy,
@@ -78,9 +80,7 @@
     its potential for harm is one of the biggest concerns of our time.\n\nTogether,
     we can use tech for good, when it matters most. [Contact us](mailto:info@justpeacelabs.org)
     to see how you can get involved.\n\n\n\n"
-  category:
-  - sys:
-      id: 6yof1GQ6XuMsiiiuiwIgmS
+  category: []
   tags:
   - ethics
   - JPL
@@ -88,506 +88,26 @@
   date: !ruby/object:DateTime 2018-03-14 00:00:00.000000000 Z
   comments: false
 - sys:
-    id: 4Bo0ElZHQQYKkCSG2cqwIo
-    created_at: !ruby/object:DateTime 2018-03-29 10:00:00.749000000 Z
-    updated_at: !ruby/object:DateTime 2018-03-29 10:10:40.253000000 Z
-    content_type_id: 2wKn6yEnZewu2SCCkus4as
-  title: 'ICT as a Conflict Driver: A Look at Facebook in Myanmar'
-  slug: ict-as-a-conflict-driver-case-study-a-look-at-facebook-in-myanmar
-  author:
-  - sys:
-      id: 4Wf6iYb9yMGwwmIOSoMg40
-      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
-      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-    name: Jennifer Easterday
-    biography: Jennifer is an attorney specializing in public international law, international
-      criminal law, human rights law and peacebuilding. Her work with NGOs and international
-      tribunals focuses on strengthening international responses to armed conflict
-      and mass human rights abuses in Africa, Latin America and Europe.
-    role: CEO and Co-founder
-  body: "*This is the first in a series of blog posts highlighting how ICT platforms
-    can foment violent conflict. [JustPeace Labs](https://justpeacelabs.org) is working
-    to reverse this trend and, together with industry leaders, create ethical standards
-    and conflict sensitive approaches to doing business.*\n\n## When Facebook is the
-    Internet\n\nSoftware companies working in emerging markets face a number of significant
-    challenges. Especially when that market involves armed conflict, a developing
-    economy, or a history of human rights abuses. These complex environments raise
-    particular ethical and security challenges companies need to address to maximize
-    their presence and protect their interests.\n\nTake, for example, Facebook. With
-    the recent news about [Cambridge Analytica using massive amounts of Facebook data
-    to influence elections](https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news),
-    the company is under intense scrutiny. Many users are indignant and supporting
-    a massive campaign to #deletefacebook. But in many contexts, it’s not that simple,
-    and users don’t have the privilege of deleting the platform.\n\nIn many emerging
-    markets, [Facebook is the de-facto internet](https://www.smh.com.au/world/asia/facebook-is-the-internet-for-many-people-in-south-east-asia-20180322-p4z5nu.html).
-    It is quickly becoming the primary source of news and information for millions
-    of users. While this obviously brings in business opportunities for the corporation,
-    it also raises the stakes for the corporation as it heavily influences politics
-    and public knowledge. And, in other contexts, is used as a driver of violent conflict.\n\n##
-    Driving Violent Conflict\n\nFacebook has recently come under fire for passively
-    enabling human rights abuses in Myanmar, where there has been an explosion of
-    internet users in the past few years. The [UN has concluded](https://www.theguardian.com/technology/2018/mar/13/myanmar-un-blames-facebook-for-spreading-hatred-of-rohingya)
-    that hate speech and rumors posted on Facebook contributed to brutal crimes against
-    Rohingya, playing a critical role in what some say may be a genocide. \n\nFacebook
-    was also [accused of censoring](https://www.thedailybeast.com/exclusive-rohingya-activists-say-facebook-silences-them)
-    activists and journalists [documenting and raising awareness](https://www.theguardian.com/technology/2017/sep/20/facebook-rohingya-muslims-myanmar)
-    about [ethnic cleansing of the country’s Rohingya minority](https://www.nytimes.com/2017/09/11/world/asia/myanmar-rohingya-ethnic-cleansing.html).
-    Several Facebook users who posted reports about the crimes committed against the
-    Rohingya said they had their posts, and sometimes accounts, removed or blocked
-    by Facebook. In some instances the posts showed graphic violence, but in others,
-    they did not. In one case, the post was a poem protesting the government’s actions.
-    \n\nOn the other hand, anti-Rohingya posts that included misinformation intended
-    to incite violence easily went viral, and Facebook has become a [breeding ground
-    for anti-Rohingya sentiment](https://www.nytimes.com/2017/10/27/world/asia/myanmar-government-facebook-rohingya.html).
-    These include misinformation campaigns created by the government. \n\nIts algorithmic
-    content curation and targeting give a greater visibility and credibility to posts
-    promoting ethnic cleansing and spreading misinformation. These posts widen longstanding
-    ethnic divisions and stoke the violence against the Rohingya ethnic group.\n\n##
-    Relying on the Community to Flag Hate Speech is Not Enough\n\nFacebook relies
-    on a set of “community standards” and user reports to monitor the billions of
-    posts uploaded everyday. Reports are manually assessed and, sometimes, removed.
-    \n\nThe vagueness of Facebook’s internal policies and how they are applied leads
-    moderators to flag or delete posts documenting military actions against the Rohingya
-    while inflammatory misinformation continues to be posted.\n\nBecause it relies
-    heavily on user-input, government supporters can flag activist posts and accounts,
-    leading to a disproportionate scrutiny of those accounts while anti-Rohingya posts
-    slip through porous protocols. The government itself conducts a social media monitoring
-    program looking for individuals who [“threaten the country’s stability.”](https://www.mmtimes.com/news/critics-rail-against-govt-budget-monitoring-facebook.html)
-    \n\n## Conflict is Bad For Business\n\nThe prolific spread of hate speech on social
-    media is not limited to Myanmar. Posts on Facebook have spread violent conflict
-    and human rights abuse in [South Sudan](http://www.slate.com/articles/technology/future_tense/2017/06/in_south_sudan_fake_news_has_deadly_consequences.html),
-    the [Philippines](https://www.bloomberg.com/news/features/2017-12-07/how-rodrigo-duterte-turned-facebook-into-a-weapon-with-a-little-help-from-facebook),
-    and [Sri Lanka](https://www.nytimes.com/2018/03/08/technology/sri-lanka-facebook-shutdown.html).
-    \n\nNot only does this create grave human and societal costs, but it’s also bad
-    for business. In Sri Lanka, the government [shut down Facebook](https://www.nytimes.com/2018/03/08/technology/sri-lanka-facebook-shutdown.html)
-    and other platforms Facebook owns including WhatsApp and Instagram as well as
-    other social media platforms in an effort to curb an outbreak in violence. Last
-    year, [India blocked 22 social networking services](https://www.livemint.com/Politics/VJEGyOaZ0YHhfdxzH5F0oM/JK-govt-orders-suspension-of-Internet-services.html),
-    including Facebook, WhatsApp and Twitter, for one month to curb street protests
-    in the disputed territory of Jammu and Kashmir.\n\nMoreover, it opens Facebook
-    to widespread criticism--[and potential legal liability](http://www.slate.com/articles/technology/future_tense/2017/06/a_new_legal_theory_for_holding_social_networks_liable_for_terrorism.html)--for
-    its role in spreading violence, terrorism, or [human rights abuses](https://www.theatlantic.com/technology/archive/2017/12/could-facebook-be-tried-for-war-crimes/548639/?utm_source=twb).
-    \n\nFacebook claims it is taking steps to better evaluate censored posts and that
-    it will only remove graphic content or content that celebrates violence. It is
-    navigating a delicate line between what may be considered newsworthy, and what
-    may be considered inflammatory. It says it is working with governments and civil
-    society to identify and remove such content.\n\nFacebook has taken other steps
-    to help keep communities safe. For example, it created [illustrated print copies
-    of their community standards in Burmese](https://www.mmtimes.com/national-news/16401-facebook-rules-get-local-to-tackle-abuse.html),
-    created a [Facebook safety page for Myanmar](https://www.facebook.com/safety/resources/myanmar),
-    and partners with local civil society groups.\n\n## We Need to Do More: Developing
-    an Ethical and Conflict Sensitive Approach to ICT\n\nNevertheless, Facebook could
-    do more to grapple with the harms its platform can contribute to when used in
-    complex settings like Myanmar. It's efforts are reactionary, and it should be
-    more proactive to avoid being used as a conflict driver. This would help protect
-    the corporation from potential legal liabilities for [profiting from violence](http://www.slate.com/articles/technology/future_tense/2017/06/a_new_legal_theory_for_holding_social_networks_liable_for_terrorism.html)
-    or acting [negligently or recklessly](https://www.theatlantic.com/technology/archive/2017/12/could-facebook-be-tried-for-war-crimes/548639/?utm_source=twb).
-    It would also, we argue, just be the right thing to do.\n\nWe’re aiming to help
-    companies like Facebook better understand and approach business in complex settings.
-    Working with key stakeholders, this year we will be creating a comprehensive set
-    of guidelines and standards for software companies working in complex settings.
-    We will show companies the business case as well as the moral case for approaching
-    these new markets with a heightened duty of care and strive to foster peace, rather
-    than provide a platform to foment conflict.\n"
-  tags:
-  - ethics
-  - Facebook
-  - justpeacelabs
-  - conflict sensitivity
-  date: !ruby/object:DateTime 2018-03-29 00:00:00.000000000 Z
-- sys:
-    id: 5zkASZuxFKW0yCIy4SASs4
-    created_at: !ruby/object:DateTime 2018-01-23 21:49:45.961000000 Z
-    updated_at: !ruby/object:DateTime 2018-01-23 21:49:45.961000000 Z
-    content_type_id: 2wKn6yEnZewu2SCCkus4as
-  title: Ethical PeaceTech at Build Peace
-  slug: heading-back-to-build-peace
-  author:
-  - sys:
-      id: 4Wf6iYb9yMGwwmIOSoMg40
-      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
-      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-    name: Jennifer Easterday
-    biography: Jennifer is an attorney specializing in public international law, international
-      criminal law, human rights law and peacebuilding. Her work with NGOs and international
-      tribunals focuses on strengthening international responses to armed conflict
-      and mass human rights abuses in Africa, Latin America and Europe.
-    role: CEO and Co-founder
-  body: |
-    We’re stoked to be heading back to [Build Peace](http://howtobuildpeace.org) on Friday. We’ve been hard at work since we first introduced JustPeace Labs and our [vision for inclusive peacebuilding](http://justpeacelabs.org/blog/2015-04-10/tooling-for-empowerment-and-peacebuilding//) through DIY mobile phone apps.
-    <!--more-->
-
-
-    Besides  technology, we’ve been focusing on the ethics of using technology in peacebuilding. Peacebuilders are rapidly turning to technology to augment their work. This raises wide-reaching ethical considerations and concerns regarding the protection of user privacy and security.
-
-    Faced with our own ethical challenges, we sought a guide or checklist that would help us navigate the tricky ins and outs of ethical peacetech. We did find some relevant and useful ethical guidelines and good practices ([here](https://www.icrc.org/en/publication/0999-professional-standards-protection-work-carried-out-humanitarian-and-human-rights), [here](http://digitalprinciples.org) and [here](https://responsibledata.io/resources/handbook/), for example). But we didn’t find anything totally on-point—something that focused specifically on the practical needs of peacebuilders working in conflict and post-conflict situations.
-
-    So what did we decide to do? Write one ourselves. And at Build Peace this year, we’re hosting a workshop on [Ethical Guidelines for PeaceTech](http://howtobuildpeace.org/ethical-peacetech/).
-
-
-
-    Based on consultations with experts in the technology and peacebuilding fields, our Ethical Guidelines for PeaceTech will be a practical tool that can be consulted when starting an ICT project in a conflict-sensitive area. Our guidelines will also include a checklist for practitioners in the field on ethical considerations as well as a list of resources they can turn to on ethics and security.
-
-
-
-    At our workshop, we will work with PeaceTech practitioners to tackle questions like:
-
-    * How do we get informed consent in a way that users can truly understand?
-
-    * What data can we collect? What data *should* we collect?
-
-    * What are rights to privacy in our jurisdiction(s) and for our user groups?
-
-    * How can we avoid digital tracking of our users and their data?
-
-    * Who "owns" the data we are using?
-
-    * Are we putting our users at risk?
-
-    * Is there anything we need to make sure our programmers do (or don’t) put into the code?
-
-
-
-    Hope to see lots of familiar faces next weekend and meet new PeaceTechies too!
-  tags:
-  - technology
-  - data
-  - tooling
-  - justice
-  - peace
-  - peacebuilding
-  - buildpeace
-  - apps
-  - mobile
-  - security
-  date: !ruby/object:DateTime 2016-09-08 00:00:00.000000000 Z
-  comments: false
-- sys:
-    id: 34IZiEbzY44WWEQ4QC6sym
-    created_at: !ruby/object:DateTime 2018-01-23 21:54:18.747000000 Z
-    updated_at: !ruby/object:DateTime 2018-01-23 21:54:18.747000000 Z
-    content_type_id: 2wKn6yEnZewu2SCCkus4as
-  title: Check us out at Build Peace 2015!
-  slug: jpl-at-build-peace
-  author:
-  - sys:
-      id: riLIVaz7Fe0aeYAs6c8S4
-      created_at: !ruby/object:DateTime 2018-01-24 11:38:41.418000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-24 18:45:40.552000000 Z
-      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-    name: Sergi Mansilla
-    biography: Sergi is a software developer passionate about using technology to
-      solve humanitarian problems. In the past, he helped build products used by millions
-      of people, such as TomTom devices, the [Cloud9 IDE](https://aws.amazon.com/cloud9/
-      "Cloud9 IDE"), or [mobile technologies for the developing world](https://blog.mozilla.org/blog/2014/09/15/expanding-reach-in-asia-telenor-group-brings-firefox-os-smartphones-to-bangladesh/)
-      along with Mozilla. He's recently written a [book about Reactive Programming](https://pragprog.com/book/smreactjs5/reactive-programming-with-rxjs-5).
-    role: CTO and Co-founder
-  body: |-
-    On Sunday, April 25, 2015, Jennifer Easterday will be presenting at the [Build
-    Peace 2015](http://howtobuildpeace.org/program/) conference in Nicosia, Cyprus.
-    She will be presenting our core project, Web-Based Tooling for Peacebuilders.
-  tags:
-  - usion
-  - empowerment
-  - tooling
-  - justice
-  - peace
-  - peacebuilding
-  date: !ruby/object:DateTime 2015-04-20 00:00:00.000000000 Z
-  comments: false
-- sys:
-    id: 6hVCAK7FYISySoG8UyogKq
-    created_at: !ruby/object:DateTime 2018-01-22 11:56:55.654000000 Z
-    updated_at: !ruby/object:DateTime 2018-01-24 10:18:14.435000000 Z
-    content_type_id: 2wKn6yEnZewu2SCCkus4as
-  title: Web-based Tooling for Inclusion and Empowerment
-  slug: tooling-for-empowerment-and-peacebuilding
-  author:
-  - sys:
-      id: 4Wf6iYb9yMGwwmIOSoMg40
-      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
-      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-    name: Jennifer Easterday
-    biography: Jennifer is an attorney specializing in public international law, international
-      criminal law, human rights law and peacebuilding. Her work with NGOs and international
-      tribunals focuses on strengthening international responses to armed conflict
-      and mass human rights abuses in Africa, Latin America and Europe.
-    role: CEO and Co-founder
-  body: |-
-    There is an increasingly well-recognized and vivid need among peacebuilders for increased access to technological tools that can advance their efforts. However, peacebuilders across sectors are confronted by resource, time, and capacity constraints that often make it difficult or impossible to efficiently use technological tools in their program design, implementation, and analysis.
-
-    Additional challenges to peacebuilding more generally include creating programs that are [context-relevant, inclusive, broadly accessible, and which have widespread participation from affected
-    communities](http://www.un.org/ga/search/view_doc.asp?symbol=A/67/499). There are also challenges specific to using technology in conflict and post-conflict contexts, such as weakened or destroyed mobile infrastructures, legal restrictions, insecure environments, and [ethical considerations](https://www.google.com/url?q=https%3A%2F%2Fwww.techchange.org%2F2014%2F09%2F23%2Fethics-ict-technology-peacebuilding%2F&sa=D&sntz=1&usg=AFQjCNGAXxp1_M2iQ58WVhEExjLJK582NQ).
-
-    JustPeace Labs addresses these challenges by offering peacebuilders a robust, user-friendly online development platform for creating targeted mobile applications.
-
-    ### Context
-
-    Recognizing the need for context-specific technology use, we will make it
-    easier for peacebuilders to unleash the power of technology in ways that are
-    designed for and with the input of the peacebuilding community to ensure each
-    application is situation-specific. Our development platform will also address
-    difficult challenges specific to using technology in post-conflict settings,
-    such as the ethics and security of using mobile apps in peacebuilding work, and
-    the inequalities in access to technological tools amongst local communities.
-
-    ### Access
-
-    By creating a robust and easy-to-use tool for mobile application development,
-    more organizations and peacebuilders will have access to the benefits of
-    technology. Based online and designed for non-technical users, the application
-    will increase access to technological tools amongst traditionally harder to
-    reach constituencies, such as
-    [women](http://www.aljazeera.com/indepth/opinion/2014/05/women-ict-africa-new-digital-ga-201452210244121558.html)
-    and rural communities. Grassroots organizations will not need special software,
-    equipment, or technical capacity to use our platform. Anyone, anywhere, can use
-    it.
-
-    ### Inclusion & Participation
-
-    It will also allow peacebuilders to reach larger groups of people, collect
-    better information, engage in more in-depth analysis, and do so quickly, in
-    peacebuilding contexts where timing is critical and resources are scarce. With
-    more people able to design mobile apps specific to their context and goals,
-    more people will be included in the peace process. This will generate a new
-    social infrastructure where communities feel more connected to peacebuilding
-    programs, and more invested in seeing their success.
-
-    ### Empowerment
-
-    Our app development platform is designed to empower local civil society
-    organizations, which may lack the capacity to design similar tools in-house, to
-    be able to use technology in their work. By increasing direct access to
-    peacebuilding programs, local civil society groups and communities will become
-    empowered participants in creating peaceful societies, thereby increasing the
-    [legitimacy of technology](http://howtobuildpeace.org/blog/cindy-chungong1/) in
-    fragile post-conflict environments and making information sharing horizontal
-    (between beneficiaries) rather than hierarchical (from beneficiaries to
-    donors/implementers).
-
-    ### How it works
-
-    The development platform will allow peacebuilders to quickly design, create,
-    and implement mobile applications to support their work. For example, an
-    organization working on rule of law or governance issues will be able to gather
-    information from local communities by designing a survey application using the
-    platform. Another organization would be able to use the interface to create a
-    mobile application to inform communities of upcoming elections information,
-    town-hall meetings, security updates, or other critical information that has
-    traditionally been difficult for peacebuilders to disseminate quickly and
-    efficiently across communities or in rural areas. The interface could also be
-    used by peacebuilders working in the field to securely collect and send data
-    about crimes and human rights violations, the environment, or local economies.
-    Or it could be used to create a central hub of information and communication to
-    facilitate cooperation between peacebuilding organizations. The types and uses
-    of the apps that can be developed on our platform are many--we will develop
-    features and add-ons to be able to address the most common app types, as well
-    as provide opportunities for customization.
-
-    The platform will also include tools for easy data analysis. Peacebuilders will
-    be able to gather data from their mobile applications or other sources, such as
-    government open data. It will be easy to analyze information and create visuals
-    to support findings and reports, improve advocacy and awareness-raising
-    efforts, or measure the impact of their programs.
-
-    The interface will be intuitive and will require very little training and no
-    technological expertise to operate. The applications will be web-based, and
-    therefore will work across mobile platforms (such as Android, iOS, FirefoxOS,
-    and others). There will be built-in features unique to peacebuilding contexts,
-    such as language support, image/shape support (for example to allow
-    communication with illiterate users), encryption, verification, and data
-    analysis. We will also offer opportunities to customize the platform to the
-    needs of specific organizations through an extendable plugin system.
-
-    Our project will use the global reach of the web and its latest developments to
-    build a platform that everyone can use, from any device or system. In
-    particular, our project will take advantage of the following technologies:
-
-    * **HTML5**. The web was conceived as a "universal" medium with no walled gardens owned by major platforms or corporations. This idea informs the premise of our project. We will be using HTML5 and the latest web technologies to create a global reach, making sure we leverage features like offline-capability (Appcache, service workers) to provide service to areas with low-connectivity. Our tools will work on every device.
-
-    * **SMS-based interfaces.** Using services like Twilio or Frontline SMS, our platform will allow peacebuilders to reach people living in low or 0-connectivity areas.
-
-    * **Modular, pluggable architecture.** We intend to design the system with a modular architecture so that once the project is open-sourced people and organizations can easily build plugins for their use-cases.
-
-    * **Integration with existing tools and workflows.** Peacebuilders will not have to learn a whole new application and interface to utilize this tool. Instead it can be integrated with existing software like Google Docs or LibreOffice.
-
-    In this way, JustPeace Labs brings the power of technological tools to the
-    global community of peacebuilders and in turn increases inclusivity and local
-    ownership of peacebuilding initiatives. We welcome your ideas and feedback.
-    Please contact us at [jen@justpeacelabs.org](mailto:jen@justpeacelabs.org).
-  tags:
-  - inclusion
-  - empowerment
-  - tooling
-  - justice
-  - peace
-  - peacebuilding
-  date: !ruby/object:DateTime 2015-04-10 00:00:00.000000000 Z
-  comments: false
-- sys:
-    id: 2bdnhRi63GQS6Sq6uE2gQO
-    created_at: !ruby/object:DateTime 2018-01-23 21:48:13.015000000 Z
-    updated_at: !ruby/object:DateTime 2018-01-23 22:39:53.769000000 Z
-    content_type_id: 2wKn6yEnZewu2SCCkus4as
-  title: Revealing Hate, Tracking Rumors and Ethical PeaceTech
-  slug: reveal-hate-tracking-rumors-ethical-peacetech.1
-  author:
-  - sys:
-      id: 4Wf6iYb9yMGwwmIOSoMg40
-      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
-      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-    name: Jennifer Easterday
-    biography: Jennifer is an attorney specializing in public international law, international
-      criminal law, human rights law and peacebuilding. Her work with NGOs and international
-      tribunals focuses on strengthening international responses to armed conflict
-      and mass human rights abuses in Africa, Latin America and Europe.
-    role: CEO and Co-founder
-  body: |
-    We’ve been busy and productive at JustPeace Labs these past few months! We are hard at work on a program to overcome hate crimes in the US, have partnered with a Build Up Fellow on developing an app in Myanamar, and published draft guidelines on Ethical Peace Tech. Here’s what we’ve been up to.
-
-    **Tracking Hate Crimes in the United States**
-
-    There has been a recent spike in hate crimes reported in the United States. [According to the FBI,](https://www.fbi.gov/news/stories/2015-hate-crime-statistics-released) there was an overall increase in hate crimes in the US in 2015, including an alarming 67% increase in hate crimes against Muslims and a surge in attacks against transgender people. However, there is a[ severe shortage of data](http://www.salon.com/2016/11/20/yes-hate-crimes-are-up-but-the-government-is-not-keeping-good-track-of-them_partner/) about hate crimes.
-
-    Hate crimes threaten the safety of our families and the fabric of our communities. Hatred and division in communities can also lead to violent conflict, crimes against humanity and human rights violations. This is not to suggest that this that could or would happen in the US, but experiences around the world demonstrate that small ruptures in the fabric of our society can grow exponentially and violently, seemingly overnight.
-
-    To address these challenges, we developed [HateTracker](http://app.hatetracker.org), a web-based app for tracking and reporting hate incidents. Using HateTracker, anyone can securely report information and submit photos or recordings of hate incidents they experience or witness.
-
-    With the data gathered by HateTracker, we will be able to identify when, where and how hate incidents are being committed. Knowledge is power and with this valuable data, we can take positive action to combat hate incidents in our communities and create a safer, more inclusive and more just society.
-
-    **Rumor Reporting and Verification in Myanmar**
-
-    In recent years, Myanmar has experienced a surge in inter-communal violence. This violence is often spurred by rumors, which are frequently untrue. We are proud to be working with Maude Morrison [Build Peace Fellow](http://howtobuildpeace.org/fellows/) and manager of the Early Warning Early Response (EWER) Program for the[ Center for Diversity and National Harmony](http://www.cdnh.org/) (CDNH) in Myanmar on an app to track and verify rumors.
-
-    The app will allow CDNH’s local monitors to report rumors and communal tensions, check and verify rumors reported in other communities and comment on or upload evidence for or against the rumor. It is hoped that the app will foster greater inclusiveness and connections among the network of monitors and help CDNH provide more accurate and timely information to communities stakeholders in Myanmar about the veracity of reported rumors. Ultimately, the app will contribute to reducing potential outbreaks of violence.
-
-    **Ethical PeaceTech**
-
-    Besides technology, we’ve been focusing on the ethics of using technology in peacebuilding. Peacebuilders are rapidly turning to technology to augment their work. This raises wide-reaching ethical considerations and concerns regarding the protection of user privacy and security.
-
-    Faced with our own ethical challenges, we sought a guide or checklist that would help us navigate the tricky ins and outs of ethical peacetech. We did find some relevant and useful ethical guidelines and good practices ([here](https://www.icrc.org/en/publication/0999-professional-standards-protection-work-carried-out-humanitarian-and-human-rights),[ here](http://digitalprinciples.org) and[ here](https://responsibledata.io/resources/handbook/), for example). But we didn’t find anything totally on-point—something that focused specifically on the practical needs of peacebuilders working in conflict and post-conflict situations.
-
-    So what did we decide to do? Write one ourselves. And at [Build Peace](http://howtobuildpeace.org) this year, we hosted a workshop on[ Ethical Guidelines for PeaceTech](http://howtobuildpeace.org/ethical-peacetech/).
-
-    Based on consultations with experts in the technology and peacebuilding fields, our Ethical Guidelines for PeaceTech is a practical tool that can be consulted when starting an ICT project in a conflict-sensitive area. Our guidelines include a checklist for practitioners in the field on ethical considerations as well as a list of resources they can turn to on ethics and security.
-
-    We’re currently getting feedback and input from security and ethics experts, and next year look forward to releasing a final version!
-  tags:
-  - tech
-  - technology
-  - data
-  - tooling
-  - justice
-  - peace
-  - peacebuilding
-  - buildpeace
-  - apps
-  - hate
-  - crimes
-  date: !ruby/object:DateTime 2016-12-15 00:00:00.000000000 Z
-  comments: false
-- sys:
-    id: 3OidZShTF6kIUOcC8iyOGW
-    created_at: !ruby/object:DateTime 2018-01-23 21:46:02.590000000 Z
-    updated_at: !ruby/object:DateTime 2018-01-23 21:46:02.590000000 Z
-    content_type_id: 2wKn6yEnZewu2SCCkus4as
-  title: Ethical Guidelines for PeaceTech
-  slug: released-ethical-guidelines-peacetech
-  author:
-  - sys:
-      id: 4Wf6iYb9yMGwwmIOSoMg40
-      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
-      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-    name: Jennifer Easterday
-    biography: Jennifer is an attorney specializing in public international law, international
-      criminal law, human rights law and peacebuilding. Her work with NGOs and international
-      tribunals focuses on strengthening international responses to armed conflict
-      and mass human rights abuses in Africa, Latin America and Europe.
-    role: CEO and Co-founder
-  body: |
-    JustPeace Labs is proud to announce the release of [Ethical Guidelines for PeaceTech](https://goo.gl/33bWR3), the first in its series of practical guidelines for PeaceTech stakeholders.
-
-    <!--more-->
-
-    Peacebuilding programs are increasingly turning to technology--specifically information communications technology, or ICT--to connect with and assist local communities in post-conflict contexts. It is widely acknowledged that although ICT provides great promise in peacebuilding, there are also significant risks and ethical considerations that must be taken into account before using technology in these contexts.
-
-    Experts have created a number of relevant and useful ethical guidelines and good practices ([here](https://www.icrc.org/en/publication/0999-professional-standards-protection-work-carried-out-humanitarian-and-human-rights), [here](http://digitalprinciples.org) and [here](https://responsibledata.io/resources/handbook/), for example), and the Harvard Humanitarian Initiative has recently released a [human rights approach](https://signalcode.org/code-intro/) to using technology in humanitarian responses to crisis.
-
-    However, there is still a need for a practical guide to ethical peacetech. Something that peacebuilding practitioners can turn to when planning and executing ICT programs, that software programmers can rely on when tackling complex coding challenges, that private corporations can utilize when operating in post-conflict contexts, and that funders can turn to when deciding how to fund peacetech work.
-
-    This is why we are developing a core set of practical guidelines for peacetech:
-
-    1. Ethical Guidelines for PeaceTech
-
-    2. Ethical Coding for PeaceTech Programmers
-
-    3. Ethical ICT Business Practices for Post-Conflict States
-
-    4. Ethical Guidelines for Funding PeaceTech Projects
-
-    With our first guide, peacebuilders and development specialists who want to use ICT in their work can find guidance on answering questions like:
-
-    * What exactly are our ethical obligations to our users?
-
-    * How do we get informed consent in a way that users can truly understand?
-
-    * How can we better understand how the local context where we’re working impacts our work--and our data?
-
-    * What data can we ethically collect? What data *should* we collect
-
-    * How can we make sure we are not putting our users at risk?
-
-    * Is there anything we need to make sure our programmers do (or don’t) put into the code?
-
-    * How can we protect our users if we have to, or decide to, share our data with third parties?
-
-    The guide is loosely organized by a program or project lifecycle. The first section introduces ethical, privacy and security challenges that arise when using ICT in peacebuilding or post-conflict contexts. It also discusses steps to take in order to understand the context in which you are working and how to be inclusive and avoid bias in data collection. The second section presents considerations for how to meet ethical obligations in practice, from the planning and strategy phase onward.  The guide also includes a list of resources for more detailed information on the themes addressed.
-
-    Future guides will tackle similar issues targeted to different PeaceTech stakeholders, including software engineers, private corporations and funders. Each will be written with needs and interests of each user group in mind, and in consultation with industry experts.
-
-    Together, we hope that this comprehensive set of guidelines will help promote the ethical use of ICT in post-conflict contexts.
-
-    [Ethical Guidelines for PeaceTech](https://goo.gl/33bWR3)
-  tags:
-  - ethics
-  - ethical
-  - tech
-  - technology
-  - data
-  - guidelines
-  - justice
-  - peace
-  - peacebuilding
-  - buildpeace
-  - apps
-  - hate
-  - crimes
-  date: !ruby/object:DateTime 2017-03-27 00:00:00.000000000 Z
-  comments: false
-- sys:
     id: 45AVNkZFq8CiQ6Kimgie4E
     created_at: !ruby/object:DateTime 2018-01-23 21:51:47.660000000 Z
     updated_at: !ruby/object:DateTime 2018-01-23 21:51:47.660000000 Z
     content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 1
   title: 'Build Peace 2015: Where to from here?'
   slug: where-to-go-from-here
   author:
   - sys:
       id: 4Wf6iYb9yMGwwmIOSoMg40
       created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-      updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
       content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
     name: Jennifer Easterday
     biography: Jennifer is an attorney specializing in public international law, international
       criminal law, human rights law and peacebuilding. Her work with NGOs and international
       tribunals focuses on strengthening international responses to armed conflict
       and mass human rights abuses in Africa, Latin America and Europe.
-    role: CEO and Co-founder
+    role: Co-Founder and Executive Director
   body: |+
     We’ve finally had a moment to collect our thoughts after a stimulating weekend
     in Cyprus at the Build Peace 2015 conference. <!--more-->We were blown away by the
@@ -708,23 +228,531 @@
   - peacebuilding
   date: !ruby/object:DateTime 2015-05-18 00:00:00.000000000 Z
   comments: false
+- sys:
+    id: 34IZiEbzY44WWEQ4QC6sym
+    created_at: !ruby/object:DateTime 2018-01-23 21:54:18.747000000 Z
+    updated_at: !ruby/object:DateTime 2018-01-23 21:54:18.747000000 Z
+    content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 1
+  title: Check us out at Build Peace 2015!
+  slug: jpl-at-build-peace
+  author:
+  - sys:
+      id: riLIVaz7Fe0aeYAs6c8S4
+      created_at: !ruby/object:DateTime 2018-01-24 11:38:41.418000000 Z
+      updated_at: !ruby/object:DateTime 2018-04-24 18:45:40.552000000 Z
+      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
+    name: Sergi Mansilla
+    biography: Sergi is a software developer passionate about using technology to
+      solve humanitarian problems. In the past, he helped build products used by millions
+      of people, such as TomTom devices, the [Cloud9 IDE](https://aws.amazon.com/cloud9/
+      "Cloud9 IDE"), or [mobile technologies for the developing world](https://blog.mozilla.org/blog/2014/09/15/expanding-reach-in-asia-telenor-group-brings-firefox-os-smartphones-to-bangladesh/)
+      along with Mozilla. He's recently written a [book about Reactive Programming](https://pragprog.com/book/smreactjs5/reactive-programming-with-rxjs-5).
+    role: CTO and Co-founder
+  body: |-
+    On Sunday, April 25, 2015, Jennifer Easterday will be presenting at the [Build
+    Peace 2015](http://howtobuildpeace.org/program/) conference in Nicosia, Cyprus.
+    She will be presenting our core project, Web-Based Tooling for Peacebuilders.
+  tags:
+  - usion
+  - empowerment
+  - tooling
+  - justice
+  - peace
+  - peacebuilding
+  date: !ruby/object:DateTime 2015-04-20 00:00:00.000000000 Z
+  comments: false
+- sys:
+    id: 6hVCAK7FYISySoG8UyogKq
+    created_at: !ruby/object:DateTime 2018-01-22 11:56:55.654000000 Z
+    updated_at: !ruby/object:DateTime 2018-01-24 10:18:14.435000000 Z
+    content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 6
+  title: Web-based Tooling for Inclusion and Empowerment
+  slug: tooling-for-empowerment-and-peacebuilding
+  author:
+  - sys:
+      id: 4Wf6iYb9yMGwwmIOSoMg40
+      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
+      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
+    name: Jennifer Easterday
+    biography: Jennifer is an attorney specializing in public international law, international
+      criminal law, human rights law and peacebuilding. Her work with NGOs and international
+      tribunals focuses on strengthening international responses to armed conflict
+      and mass human rights abuses in Africa, Latin America and Europe.
+    role: Co-Founder and Executive Director
+  body: |-
+    There is an increasingly well-recognized and vivid need among peacebuilders for increased access to technological tools that can advance their efforts. However, peacebuilders across sectors are confronted by resource, time, and capacity constraints that often make it difficult or impossible to efficiently use technological tools in their program design, implementation, and analysis.
+
+    Additional challenges to peacebuilding more generally include creating programs that are [context-relevant, inclusive, broadly accessible, and which have widespread participation from affected
+    communities](http://www.un.org/ga/search/view_doc.asp?symbol=A/67/499). There are also challenges specific to using technology in conflict and post-conflict contexts, such as weakened or destroyed mobile infrastructures, legal restrictions, insecure environments, and [ethical considerations](https://www.google.com/url?q=https%3A%2F%2Fwww.techchange.org%2F2014%2F09%2F23%2Fethics-ict-technology-peacebuilding%2F&sa=D&sntz=1&usg=AFQjCNGAXxp1_M2iQ58WVhEExjLJK582NQ).
+
+    JustPeace Labs addresses these challenges by offering peacebuilders a robust, user-friendly online development platform for creating targeted mobile applications.
+
+    ### Context
+
+    Recognizing the need for context-specific technology use, we will make it
+    easier for peacebuilders to unleash the power of technology in ways that are
+    designed for and with the input of the peacebuilding community to ensure each
+    application is situation-specific. Our development platform will also address
+    difficult challenges specific to using technology in post-conflict settings,
+    such as the ethics and security of using mobile apps in peacebuilding work, and
+    the inequalities in access to technological tools amongst local communities.
+
+    ### Access
+
+    By creating a robust and easy-to-use tool for mobile application development,
+    more organizations and peacebuilders will have access to the benefits of
+    technology. Based online and designed for non-technical users, the application
+    will increase access to technological tools amongst traditionally harder to
+    reach constituencies, such as
+    [women](http://www.aljazeera.com/indepth/opinion/2014/05/women-ict-africa-new-digital-ga-201452210244121558.html)
+    and rural communities. Grassroots organizations will not need special software,
+    equipment, or technical capacity to use our platform. Anyone, anywhere, can use
+    it.
+
+    ### Inclusion & Participation
+
+    It will also allow peacebuilders to reach larger groups of people, collect
+    better information, engage in more in-depth analysis, and do so quickly, in
+    peacebuilding contexts where timing is critical and resources are scarce. With
+    more people able to design mobile apps specific to their context and goals,
+    more people will be included in the peace process. This will generate a new
+    social infrastructure where communities feel more connected to peacebuilding
+    programs, and more invested in seeing their success.
+
+    ### Empowerment
+
+    Our app development platform is designed to empower local civil society
+    organizations, which may lack the capacity to design similar tools in-house, to
+    be able to use technology in their work. By increasing direct access to
+    peacebuilding programs, local civil society groups and communities will become
+    empowered participants in creating peaceful societies, thereby increasing the
+    [legitimacy of technology](http://howtobuildpeace.org/blog/cindy-chungong1/) in
+    fragile post-conflict environments and making information sharing horizontal
+    (between beneficiaries) rather than hierarchical (from beneficiaries to
+    donors/implementers).
+
+    ### How it works
+
+    The development platform will allow peacebuilders to quickly design, create,
+    and implement mobile applications to support their work. For example, an
+    organization working on rule of law or governance issues will be able to gather
+    information from local communities by designing a survey application using the
+    platform. Another organization would be able to use the interface to create a
+    mobile application to inform communities of upcoming elections information,
+    town-hall meetings, security updates, or other critical information that has
+    traditionally been difficult for peacebuilders to disseminate quickly and
+    efficiently across communities or in rural areas. The interface could also be
+    used by peacebuilders working in the field to securely collect and send data
+    about crimes and human rights violations, the environment, or local economies.
+    Or it could be used to create a central hub of information and communication to
+    facilitate cooperation between peacebuilding organizations. The types and uses
+    of the apps that can be developed on our platform are many--we will develop
+    features and add-ons to be able to address the most common app types, as well
+    as provide opportunities for customization.
+
+    The platform will also include tools for easy data analysis. Peacebuilders will
+    be able to gather data from their mobile applications or other sources, such as
+    government open data. It will be easy to analyze information and create visuals
+    to support findings and reports, improve advocacy and awareness-raising
+    efforts, or measure the impact of their programs.
+
+    The interface will be intuitive and will require very little training and no
+    technological expertise to operate. The applications will be web-based, and
+    therefore will work across mobile platforms (such as Android, iOS, FirefoxOS,
+    and others). There will be built-in features unique to peacebuilding contexts,
+    such as language support, image/shape support (for example to allow
+    communication with illiterate users), encryption, verification, and data
+    analysis. We will also offer opportunities to customize the platform to the
+    needs of specific organizations through an extendable plugin system.
+
+    Our project will use the global reach of the web and its latest developments to
+    build a platform that everyone can use, from any device or system. In
+    particular, our project will take advantage of the following technologies:
+
+    * **HTML5**. The web was conceived as a "universal" medium with no walled gardens owned by major platforms or corporations. This idea informs the premise of our project. We will be using HTML5 and the latest web technologies to create a global reach, making sure we leverage features like offline-capability (Appcache, service workers) to provide service to areas with low-connectivity. Our tools will work on every device.
+
+    * **SMS-based interfaces.** Using services like Twilio or Frontline SMS, our platform will allow peacebuilders to reach people living in low or 0-connectivity areas.
+
+    * **Modular, pluggable architecture.** We intend to design the system with a modular architecture so that once the project is open-sourced people and organizations can easily build plugins for their use-cases.
+
+    * **Integration with existing tools and workflows.** Peacebuilders will not have to learn a whole new application and interface to utilize this tool. Instead it can be integrated with existing software like Google Docs or LibreOffice.
+
+    In this way, JustPeace Labs brings the power of technological tools to the
+    global community of peacebuilders and in turn increases inclusivity and local
+    ownership of peacebuilding initiatives. We welcome your ideas and feedback.
+    Please contact us at [jen@justpeacelabs.org](mailto:jen@justpeacelabs.org).
+  tags:
+  - inclusion
+  - empowerment
+  - tooling
+  - justice
+  - peace
+  - peacebuilding
+  date: !ruby/object:DateTime 2015-04-10 00:00:00.000000000 Z
+  comments: false
+- sys:
+    id: 4Bo0ElZHQQYKkCSG2cqwIo
+    created_at: !ruby/object:DateTime 2018-03-29 10:00:00.749000000 Z
+    updated_at: !ruby/object:DateTime 2018-03-29 10:10:40.253000000 Z
+    content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 3
+  title: 'ICT as a Conflict Driver: A Look at Facebook in Myanmar'
+  slug: ict-as-a-conflict-driver-case-study-a-look-at-facebook-in-myanmar
+  author:
+  - sys:
+      id: 4Wf6iYb9yMGwwmIOSoMg40
+      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
+      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
+    name: Jennifer Easterday
+    biography: Jennifer is an attorney specializing in public international law, international
+      criminal law, human rights law and peacebuilding. Her work with NGOs and international
+      tribunals focuses on strengthening international responses to armed conflict
+      and mass human rights abuses in Africa, Latin America and Europe.
+    role: Co-Founder and Executive Director
+  body: "*This is the first in a series of blog posts highlighting how ICT platforms
+    can foment violent conflict. [JustPeace Labs](https://justpeacelabs.org) is working
+    to reverse this trend and, together with industry leaders, create ethical standards
+    and conflict sensitive approaches to doing business.*\n\n## When Facebook is the
+    Internet\n\nSoftware companies working in emerging markets face a number of significant
+    challenges. Especially when that market involves armed conflict, a developing
+    economy, or a history of human rights abuses. These complex environments raise
+    particular ethical and security challenges companies need to address to maximize
+    their presence and protect their interests.\n\nTake, for example, Facebook. With
+    the recent news about [Cambridge Analytica using massive amounts of Facebook data
+    to influence elections](https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html?hp&action=click&pgtype=Homepage&clickSource=story-heading&module=first-column-region&region=top-news&WT.nav=top-news),
+    the company is under intense scrutiny. Many users are indignant and supporting
+    a massive campaign to #deletefacebook. But in many contexts, it’s not that simple,
+    and users don’t have the privilege of deleting the platform.\n\nIn many emerging
+    markets, [Facebook is the de-facto internet](https://www.smh.com.au/world/asia/facebook-is-the-internet-for-many-people-in-south-east-asia-20180322-p4z5nu.html).
+    It is quickly becoming the primary source of news and information for millions
+    of users. While this obviously brings in business opportunities for the corporation,
+    it also raises the stakes for the corporation as it heavily influences politics
+    and public knowledge. And, in other contexts, is used as a driver of violent conflict.\n\n##
+    Driving Violent Conflict\n\nFacebook has recently come under fire for passively
+    enabling human rights abuses in Myanmar, where there has been an explosion of
+    internet users in the past few years. The [UN has concluded](https://www.theguardian.com/technology/2018/mar/13/myanmar-un-blames-facebook-for-spreading-hatred-of-rohingya)
+    that hate speech and rumors posted on Facebook contributed to brutal crimes against
+    Rohingya, playing a critical role in what some say may be a genocide. \n\nFacebook
+    was also [accused of censoring](https://www.thedailybeast.com/exclusive-rohingya-activists-say-facebook-silences-them)
+    activists and journalists [documenting and raising awareness](https://www.theguardian.com/technology/2017/sep/20/facebook-rohingya-muslims-myanmar)
+    about [ethnic cleansing of the country’s Rohingya minority](https://www.nytimes.com/2017/09/11/world/asia/myanmar-rohingya-ethnic-cleansing.html).
+    Several Facebook users who posted reports about the crimes committed against the
+    Rohingya said they had their posts, and sometimes accounts, removed or blocked
+    by Facebook. In some instances the posts showed graphic violence, but in others,
+    they did not. In one case, the post was a poem protesting the government’s actions.
+    \n\nOn the other hand, anti-Rohingya posts that included misinformation intended
+    to incite violence easily went viral, and Facebook has become a [breeding ground
+    for anti-Rohingya sentiment](https://www.nytimes.com/2017/10/27/world/asia/myanmar-government-facebook-rohingya.html).
+    These include misinformation campaigns created by the government. \n\nIts algorithmic
+    content curation and targeting give a greater visibility and credibility to posts
+    promoting ethnic cleansing and spreading misinformation. These posts widen longstanding
+    ethnic divisions and stoke the violence against the Rohingya ethnic group.\n\n##
+    Relying on the Community to Flag Hate Speech is Not Enough\n\nFacebook relies
+    on a set of “community standards” and user reports to monitor the billions of
+    posts uploaded everyday. Reports are manually assessed and, sometimes, removed.
+    \n\nThe vagueness of Facebook’s internal policies and how they are applied leads
+    moderators to flag or delete posts documenting military actions against the Rohingya
+    while inflammatory misinformation continues to be posted.\n\nBecause it relies
+    heavily on user-input, government supporters can flag activist posts and accounts,
+    leading to a disproportionate scrutiny of those accounts while anti-Rohingya posts
+    slip through porous protocols. The government itself conducts a social media monitoring
+    program looking for individuals who [“threaten the country’s stability.”](https://www.mmtimes.com/news/critics-rail-against-govt-budget-monitoring-facebook.html)
+    \n\n## Conflict is Bad For Business\n\nThe prolific spread of hate speech on social
+    media is not limited to Myanmar. Posts on Facebook have spread violent conflict
+    and human rights abuse in [South Sudan](http://www.slate.com/articles/technology/future_tense/2017/06/in_south_sudan_fake_news_has_deadly_consequences.html),
+    the [Philippines](https://www.bloomberg.com/news/features/2017-12-07/how-rodrigo-duterte-turned-facebook-into-a-weapon-with-a-little-help-from-facebook),
+    and [Sri Lanka](https://www.nytimes.com/2018/03/08/technology/sri-lanka-facebook-shutdown.html).
+    \n\nNot only does this create grave human and societal costs, but it’s also bad
+    for business. In Sri Lanka, the government [shut down Facebook](https://www.nytimes.com/2018/03/08/technology/sri-lanka-facebook-shutdown.html)
+    and other platforms Facebook owns including WhatsApp and Instagram as well as
+    other social media platforms in an effort to curb an outbreak in violence. Last
+    year, [India blocked 22 social networking services](https://www.livemint.com/Politics/VJEGyOaZ0YHhfdxzH5F0oM/JK-govt-orders-suspension-of-Internet-services.html),
+    including Facebook, WhatsApp and Twitter, for one month to curb street protests
+    in the disputed territory of Jammu and Kashmir.\n\nMoreover, it opens Facebook
+    to widespread criticism--[and potential legal liability](http://www.slate.com/articles/technology/future_tense/2017/06/a_new_legal_theory_for_holding_social_networks_liable_for_terrorism.html)--for
+    its role in spreading violence, terrorism, or [human rights abuses](https://www.theatlantic.com/technology/archive/2017/12/could-facebook-be-tried-for-war-crimes/548639/?utm_source=twb).
+    \n\nFacebook claims it is taking steps to better evaluate censored posts and that
+    it will only remove graphic content or content that celebrates violence. It is
+    navigating a delicate line between what may be considered newsworthy, and what
+    may be considered inflammatory. It says it is working with governments and civil
+    society to identify and remove such content.\n\nFacebook has taken other steps
+    to help keep communities safe. For example, it created [illustrated print copies
+    of their community standards in Burmese](https://www.mmtimes.com/national-news/16401-facebook-rules-get-local-to-tackle-abuse.html),
+    created a [Facebook safety page for Myanmar](https://www.facebook.com/safety/resources/myanmar),
+    and partners with local civil society groups.\n\n## We Need to Do More: Developing
+    an Ethical and Conflict Sensitive Approach to ICT\n\nNevertheless, Facebook could
+    do more to grapple with the harms its platform can contribute to when used in
+    complex settings like Myanmar. It's efforts are reactionary, and it should be
+    more proactive to avoid being used as a conflict driver. This would help protect
+    the corporation from potential legal liabilities for [profiting from violence](http://www.slate.com/articles/technology/future_tense/2017/06/a_new_legal_theory_for_holding_social_networks_liable_for_terrorism.html)
+    or acting [negligently or recklessly](https://www.theatlantic.com/technology/archive/2017/12/could-facebook-be-tried-for-war-crimes/548639/?utm_source=twb).
+    It would also, we argue, just be the right thing to do.\n\nWe’re aiming to help
+    companies like Facebook better understand and approach business in complex settings.
+    Working with key stakeholders, this year we will be creating a comprehensive set
+    of guidelines and standards for software companies working in complex settings.
+    We will show companies the business case as well as the moral case for approaching
+    these new markets with a heightened duty of care and strive to foster peace, rather
+    than provide a platform to foment conflict.\n"
+  tags:
+  - ethics
+  - Facebook
+  - justpeacelabs
+  - conflict sensitivity
+  date: !ruby/object:DateTime 2018-03-29 00:00:00.000000000 Z
+- sys:
+    id: 2bdnhRi63GQS6Sq6uE2gQO
+    created_at: !ruby/object:DateTime 2018-01-23 21:48:13.015000000 Z
+    updated_at: !ruby/object:DateTime 2018-01-23 22:39:53.769000000 Z
+    content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 2
+  title: Revealing Hate, Tracking Rumors and Ethical PeaceTech
+  slug: reveal-hate-tracking-rumors-ethical-peacetech.1
+  author:
+  - sys:
+      id: 4Wf6iYb9yMGwwmIOSoMg40
+      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
+      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
+    name: Jennifer Easterday
+    biography: Jennifer is an attorney specializing in public international law, international
+      criminal law, human rights law and peacebuilding. Her work with NGOs and international
+      tribunals focuses on strengthening international responses to armed conflict
+      and mass human rights abuses in Africa, Latin America and Europe.
+    role: Co-Founder and Executive Director
+  body: |
+    We’ve been busy and productive at JustPeace Labs these past few months! We are hard at work on a program to overcome hate crimes in the US, have partnered with a Build Up Fellow on developing an app in Myanamar, and published draft guidelines on Ethical Peace Tech. Here’s what we’ve been up to.
+
+    **Tracking Hate Crimes in the United States**
+
+    There has been a recent spike in hate crimes reported in the United States. [According to the FBI,](https://www.fbi.gov/news/stories/2015-hate-crime-statistics-released) there was an overall increase in hate crimes in the US in 2015, including an alarming 67% increase in hate crimes against Muslims and a surge in attacks against transgender people. However, there is a[ severe shortage of data](http://www.salon.com/2016/11/20/yes-hate-crimes-are-up-but-the-government-is-not-keeping-good-track-of-them_partner/) about hate crimes.
+
+    Hate crimes threaten the safety of our families and the fabric of our communities. Hatred and division in communities can also lead to violent conflict, crimes against humanity and human rights violations. This is not to suggest that this that could or would happen in the US, but experiences around the world demonstrate that small ruptures in the fabric of our society can grow exponentially and violently, seemingly overnight.
+
+    To address these challenges, we developed [HateTracker](http://app.hatetracker.org), a web-based app for tracking and reporting hate incidents. Using HateTracker, anyone can securely report information and submit photos or recordings of hate incidents they experience or witness.
+
+    With the data gathered by HateTracker, we will be able to identify when, where and how hate incidents are being committed. Knowledge is power and with this valuable data, we can take positive action to combat hate incidents in our communities and create a safer, more inclusive and more just society.
+
+    **Rumor Reporting and Verification in Myanmar**
+
+    In recent years, Myanmar has experienced a surge in inter-communal violence. This violence is often spurred by rumors, which are frequently untrue. We are proud to be working with Maude Morrison [Build Peace Fellow](http://howtobuildpeace.org/fellows/) and manager of the Early Warning Early Response (EWER) Program for the[ Center for Diversity and National Harmony](http://www.cdnh.org/) (CDNH) in Myanmar on an app to track and verify rumors.
+
+    The app will allow CDNH’s local monitors to report rumors and communal tensions, check and verify rumors reported in other communities and comment on or upload evidence for or against the rumor. It is hoped that the app will foster greater inclusiveness and connections among the network of monitors and help CDNH provide more accurate and timely information to communities stakeholders in Myanmar about the veracity of reported rumors. Ultimately, the app will contribute to reducing potential outbreaks of violence.
+
+    **Ethical PeaceTech**
+
+    Besides technology, we’ve been focusing on the ethics of using technology in peacebuilding. Peacebuilders are rapidly turning to technology to augment their work. This raises wide-reaching ethical considerations and concerns regarding the protection of user privacy and security.
+
+    Faced with our own ethical challenges, we sought a guide or checklist that would help us navigate the tricky ins and outs of ethical peacetech. We did find some relevant and useful ethical guidelines and good practices ([here](https://www.icrc.org/en/publication/0999-professional-standards-protection-work-carried-out-humanitarian-and-human-rights),[ here](http://digitalprinciples.org) and[ here](https://responsibledata.io/resources/handbook/), for example). But we didn’t find anything totally on-point—something that focused specifically on the practical needs of peacebuilders working in conflict and post-conflict situations.
+
+    So what did we decide to do? Write one ourselves. And at [Build Peace](http://howtobuildpeace.org) this year, we hosted a workshop on[ Ethical Guidelines for PeaceTech](http://howtobuildpeace.org/ethical-peacetech/).
+
+    Based on consultations with experts in the technology and peacebuilding fields, our Ethical Guidelines for PeaceTech is a practical tool that can be consulted when starting an ICT project in a conflict-sensitive area. Our guidelines include a checklist for practitioners in the field on ethical considerations as well as a list of resources they can turn to on ethics and security.
+
+    We’re currently getting feedback and input from security and ethics experts, and next year look forward to releasing a final version!
+  tags:
+  - tech
+  - technology
+  - data
+  - tooling
+  - justice
+  - peace
+  - peacebuilding
+  - buildpeace
+  - apps
+  - hate
+  - crimes
+  date: !ruby/object:DateTime 2016-12-15 00:00:00.000000000 Z
+  comments: false
+- sys:
+    id: 5zkASZuxFKW0yCIy4SASs4
+    created_at: !ruby/object:DateTime 2018-01-23 21:49:45.961000000 Z
+    updated_at: !ruby/object:DateTime 2018-01-23 21:49:45.961000000 Z
+    content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 1
+  title: Ethical PeaceTech at Build Peace
+  slug: heading-back-to-build-peace
+  author:
+  - sys:
+      id: 4Wf6iYb9yMGwwmIOSoMg40
+      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
+      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
+    name: Jennifer Easterday
+    biography: Jennifer is an attorney specializing in public international law, international
+      criminal law, human rights law and peacebuilding. Her work with NGOs and international
+      tribunals focuses on strengthening international responses to armed conflict
+      and mass human rights abuses in Africa, Latin America and Europe.
+    role: Co-Founder and Executive Director
+  body: |
+    We’re stoked to be heading back to [Build Peace](http://howtobuildpeace.org) on Friday. We’ve been hard at work since we first introduced JustPeace Labs and our [vision for inclusive peacebuilding](http://justpeacelabs.org/blog/2015-04-10/tooling-for-empowerment-and-peacebuilding//) through DIY mobile phone apps.
+    <!--more-->
+
+
+    Besides  technology, we’ve been focusing on the ethics of using technology in peacebuilding. Peacebuilders are rapidly turning to technology to augment their work. This raises wide-reaching ethical considerations and concerns regarding the protection of user privacy and security.
+
+    Faced with our own ethical challenges, we sought a guide or checklist that would help us navigate the tricky ins and outs of ethical peacetech. We did find some relevant and useful ethical guidelines and good practices ([here](https://www.icrc.org/en/publication/0999-professional-standards-protection-work-carried-out-humanitarian-and-human-rights), [here](http://digitalprinciples.org) and [here](https://responsibledata.io/resources/handbook/), for example). But we didn’t find anything totally on-point—something that focused specifically on the practical needs of peacebuilders working in conflict and post-conflict situations.
+
+    So what did we decide to do? Write one ourselves. And at Build Peace this year, we’re hosting a workshop on [Ethical Guidelines for PeaceTech](http://howtobuildpeace.org/ethical-peacetech/).
+
+
+
+    Based on consultations with experts in the technology and peacebuilding fields, our Ethical Guidelines for PeaceTech will be a practical tool that can be consulted when starting an ICT project in a conflict-sensitive area. Our guidelines will also include a checklist for practitioners in the field on ethical considerations as well as a list of resources they can turn to on ethics and security.
+
+
+
+    At our workshop, we will work with PeaceTech practitioners to tackle questions like:
+
+    * How do we get informed consent in a way that users can truly understand?
+
+    * What data can we collect? What data *should* we collect?
+
+    * What are rights to privacy in our jurisdiction(s) and for our user groups?
+
+    * How can we avoid digital tracking of our users and their data?
+
+    * Who "owns" the data we are using?
+
+    * Are we putting our users at risk?
+
+    * Is there anything we need to make sure our programmers do (or don’t) put into the code?
+
+
+
+    Hope to see lots of familiar faces next weekend and meet new PeaceTechies too!
+  tags:
+  - technology
+  - data
+  - tooling
+  - justice
+  - peace
+  - peacebuilding
+  - buildpeace
+  - apps
+  - mobile
+  - security
+  date: !ruby/object:DateTime 2016-09-08 00:00:00.000000000 Z
+  comments: false
+- sys:
+    id: 3OidZShTF6kIUOcC8iyOGW
+    created_at: !ruby/object:DateTime 2018-01-23 21:46:02.590000000 Z
+    updated_at: !ruby/object:DateTime 2018-01-23 21:46:02.590000000 Z
+    content_type_id: 2wKn6yEnZewu2SCCkus4as
+    revision: 1
+  title: Ethical Guidelines for PeaceTech
+  slug: released-ethical-guidelines-peacetech
+  author:
+  - sys:
+      id: 4Wf6iYb9yMGwwmIOSoMg40
+      created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
+      updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
+      content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+      revision: 5
+    name: Jennifer Easterday
+    biography: Jennifer is an attorney specializing in public international law, international
+      criminal law, human rights law and peacebuilding. Her work with NGOs and international
+      tribunals focuses on strengthening international responses to armed conflict
+      and mass human rights abuses in Africa, Latin America and Europe.
+    role: Co-Founder and Executive Director
+  body: |
+    JustPeace Labs is proud to announce the release of [Ethical Guidelines for PeaceTech](https://goo.gl/33bWR3), the first in its series of practical guidelines for PeaceTech stakeholders.
+
+    <!--more-->
+
+    Peacebuilding programs are increasingly turning to technology--specifically information communications technology, or ICT--to connect with and assist local communities in post-conflict contexts. It is widely acknowledged that although ICT provides great promise in peacebuilding, there are also significant risks and ethical considerations that must be taken into account before using technology in these contexts.
+
+    Experts have created a number of relevant and useful ethical guidelines and good practices ([here](https://www.icrc.org/en/publication/0999-professional-standards-protection-work-carried-out-humanitarian-and-human-rights), [here](http://digitalprinciples.org) and [here](https://responsibledata.io/resources/handbook/), for example), and the Harvard Humanitarian Initiative has recently released a [human rights approach](https://signalcode.org/code-intro/) to using technology in humanitarian responses to crisis.
+
+    However, there is still a need for a practical guide to ethical peacetech. Something that peacebuilding practitioners can turn to when planning and executing ICT programs, that software programmers can rely on when tackling complex coding challenges, that private corporations can utilize when operating in post-conflict contexts, and that funders can turn to when deciding how to fund peacetech work.
+
+    This is why we are developing a core set of practical guidelines for peacetech:
+
+    1. Ethical Guidelines for PeaceTech
+
+    2. Ethical Coding for PeaceTech Programmers
+
+    3. Ethical ICT Business Practices for Post-Conflict States
+
+    4. Ethical Guidelines for Funding PeaceTech Projects
+
+    With our first guide, peacebuilders and development specialists who want to use ICT in their work can find guidance on answering questions like:
+
+    * What exactly are our ethical obligations to our users?
+
+    * How do we get informed consent in a way that users can truly understand?
+
+    * How can we better understand how the local context where we’re working impacts our work--and our data?
+
+    * What data can we ethically collect? What data *should* we collect
+
+    * How can we make sure we are not putting our users at risk?
+
+    * Is there anything we need to make sure our programmers do (or don’t) put into the code?
+
+    * How can we protect our users if we have to, or decide to, share our data with third parties?
+
+    The guide is loosely organized by a program or project lifecycle. The first section introduces ethical, privacy and security challenges that arise when using ICT in peacebuilding or post-conflict contexts. It also discusses steps to take in order to understand the context in which you are working and how to be inclusive and avoid bias in data collection. The second section presents considerations for how to meet ethical obligations in practice, from the planning and strategy phase onward.  The guide also includes a list of resources for more detailed information on the themes addressed.
+
+    Future guides will tackle similar issues targeted to different PeaceTech stakeholders, including software engineers, private corporations and funders. Each will be written with needs and interests of each user group in mind, and in consultation with industry experts.
+
+    Together, we hope that this comprehensive set of guidelines will help promote the ethical use of ICT in post-conflict contexts.
+
+    [Ethical Guidelines for PeaceTech](https://goo.gl/33bWR3)
+  tags:
+  - ethics
+  - ethical
+  - tech
+  - technology
+  - data
+  - guidelines
+  - justice
+  - peace
+  - peacebuilding
+  - buildpeace
+  - apps
+  - hate
+  - crimes
+  date: !ruby/object:DateTime 2017-03-27 00:00:00.000000000 Z
+  comments: false
 1kUEViTN4EmGiEaaeC6ouY:
+- sys:
+    id: Y7OcULTj44CM8mUIaSWYo
+    created_at: !ruby/object:DateTime 2018-01-24 11:37:28.412000000 Z
+    updated_at: !ruby/object:DateTime 2018-04-20 15:50:36.842000000 Z
+    content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+    revision: 2
+  name: Hana Ivanhoe
+  biography: Hana is an attorney with advocacy and policy expertise in international
+    development, corporate accountability and anti-corruption. She is a Lecturer at
+    Berkeley Law (University of California, Berkeley) where she teaches Introduction
+    to Legal Scholarship and a series of writing seminars.
+  role: Advisor
 - sys:
     id: 4Wf6iYb9yMGwwmIOSoMg40
     created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
-    updated_at: !ruby/object:DateTime 2018-04-20 14:20:49.729000000 Z
+    updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
     content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+    revision: 5
   name: Jennifer Easterday
   biography: Jennifer is an attorney specializing in public international law, international
     criminal law, human rights law and peacebuilding. Her work with NGOs and international
     tribunals focuses on strengthening international responses to armed conflict and
     mass human rights abuses in Africa, Latin America and Europe.
-  role: CEO and Co-founder
+  role: Co-Founder and Executive Director
 - sys:
     id: riLIVaz7Fe0aeYAs6c8S4
     created_at: !ruby/object:DateTime 2018-01-24 11:38:41.418000000 Z
     updated_at: !ruby/object:DateTime 2018-04-24 18:45:40.552000000 Z
     content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+    revision: 5
   name: Sergi Mansilla
   biography: Sergi is a software developer passionate about using technology to solve
     humanitarian problems. In the past, he helped build products used by millions
@@ -732,14 +760,3 @@
     "Cloud9 IDE"), or [mobile technologies for the developing world](https://blog.mozilla.org/blog/2014/09/15/expanding-reach-in-asia-telenor-group-brings-firefox-os-smartphones-to-bangladesh/)
     along with Mozilla. He's recently written a [book about Reactive Programming](https://pragprog.com/book/smreactjs5/reactive-programming-with-rxjs-5).
   role: CTO and Co-founder
-- sys:
-    id: Y7OcULTj44CM8mUIaSWYo
-    created_at: !ruby/object:DateTime 2018-01-24 11:37:28.412000000 Z
-    updated_at: !ruby/object:DateTime 2018-04-20 15:50:36.842000000 Z
-    content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-  name: Hana Ivanhoe
-  biography: Hana is an attorney with advocacy and policy expertise in international
-    development, corporate accountability and anti-corruption. She is a Lecturer at
-    Berkeley Law (University of California, Berkeley) where she teaches Introduction
-    to Legal Scholarship and a series of writing seminars.
-  role: Advisor
