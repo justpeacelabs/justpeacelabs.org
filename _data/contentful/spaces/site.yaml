@@ -724,18 +724,6 @@
   comments: false
 1kUEViTN4EmGiEaaeC6ouY:
 - sys:
-    id: Y7OcULTj44CM8mUIaSWYo
-    created_at: !ruby/object:DateTime 2018-01-24 11:37:28.412000000 Z
-    updated_at: !ruby/object:DateTime 2018-04-20 15:50:36.842000000 Z
-    content_type_id: 1kUEViTN4EmGiEaaeC6ouY
-    revision: 2
-  name: Hana Ivanhoe
-  biography: Hana is an attorney with advocacy and policy expertise in international
-    development, corporate accountability and anti-corruption. She is a Lecturer at
-    Berkeley Law (University of California, Berkeley) where she teaches Introduction
-    to Legal Scholarship and a series of writing seminars.
-  role: Advisor
-- sys:
     id: 4Wf6iYb9yMGwwmIOSoMg40
     created_at: !ruby/object:DateTime 2018-01-22 10:34:20.748000000 Z
     updated_at: !ruby/object:DateTime 2019-02-07 15:21:53.266000000 Z
@@ -747,6 +735,18 @@
     tribunals focuses on strengthening international responses to armed conflict and
     mass human rights abuses in Africa, Latin America and Europe.
   role: Co-Founder and Executive Director
+- sys:
+    id: Y7OcULTj44CM8mUIaSWYo
+    created_at: !ruby/object:DateTime 2018-01-24 11:37:28.412000000 Z
+    updated_at: !ruby/object:DateTime 2018-04-20 15:50:36.842000000 Z
+    content_type_id: 1kUEViTN4EmGiEaaeC6ouY
+    revision: 2
+  name: Hana Ivanhoe
+  biography: Hana is an attorney with advocacy and policy expertise in international
+    development, corporate accountability and anti-corruption. She is a Lecturer at
+    Berkeley Law (University of California, Berkeley) where she teaches Introduction
+    to Legal Scholarship and a series of writing seminars.
+  role: Advisor
 - sys:
     id: riLIVaz7Fe0aeYAs6c8S4
     created_at: !ruby/object:DateTime 2018-01-24 11:38:41.418000000 Z
